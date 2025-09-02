@@ -98,20 +98,20 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 ###### Brain-inspired Replay 2025
 | No. | Title   | Venue | Algorithm Name | Code | Year |
 |:-----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | [Learn by Reasoning: Analogical Weight Generation for Few-Shot Class-Incremental Learning](https://arxiv.org/pdf/2503.21258?) | arXiv | - | Image Classification | 2025 |
+| 01 | [Learn by Reasoning: Analogical Weight Generation for Few-Shot Class-Incremental Learning](https://arxiv.org/pdf/2503.21258?) | arXiv | - | - | 2025 |
 
 ###### Brain-inspired Replay 2024
 | No. | Title   | Venue | Algorithm Name | Code | Year |
 |:-----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | [Brain-inspired fast-and slow-update prompt tuning for few-shot class-incremental learning](https://ieeexplore.ieee.org/abstract/document/10682795) | TNNLS | FSPT-FSCIL | [PyTorch(Author)](https://github.com/qihangran/FSPT-FSCIL) | 2024 |
+| 01 | [Brain-inspired fast-and slow-update prompt tuning for few-shot class-incremental learning](https://ieeexplore.ieee.org/abstract/document/10682795) | TNNLS | FSPT-FSCIL | [GitHub](https://github.com/qihangran/FSPT-FSCIL) | 2024 |
 | 02 | [MgSvF: Multi-Grained Slow versus Fast Framework for Few-Shot Class-Incremental Learning](https://openreview.net/forum?id=uVcDssQff) | TPAMI | SvF | - | 2024 |
-| 03 | [SHARP: Sparsity and Hidden Activation RePlay for Neuro-Inspired Continual Learning](https://ieeexplore.ieee.org/abstract/document/10644996) | ICDL | SHARP | [PyTorch(Author)](https://github.com/BurakGurbuz97/SHARP-Continual-Learning) | 2024 |
+| 03 | [SHARP: Sparsity and Hidden Activation RePlay for Neuro-Inspired Continual Learning](https://ieeexplore.ieee.org/abstract/document/10644996) | ICDL | SHARP | [GitHub](https://github.com/BurakGurbuz97/SHARP-Continual-Learning) | 2024 |
 
 
 ###### Brain-inspired Replay 2023
 | No. | Title   | Venue | Algorithm Name | Code | Year |
 |:-----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | [Few-shot class-incremental learning via class-aware bilateral distillation](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_Few-Shot_Class-Incremental_Learning_via_Class-Aware_Bilateral_Distillation_CVPR_2023_paper.pdf) | CVPR | CABD | [PyTorch(Author)](https://github.com/LinglanZhao/BiDistFSCIL) | 2023 |
+| 01 | [Few-shot class-incremental learning via class-aware bilateral distillation](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_Few-Shot_Class-Incremental_Learning_via_Class-Aware_Bilateral_Distillation_CVPR_2023_paper.pdf) | CVPR | CABD | [GitHub](https://github.com/LinglanZhao/BiDistFSCIL) | 2023 |
 | 02 | [Class-incremental learning using generative experience replay based on time-aware regularization](https://arxiv.org/pdf/2310.03898) | arXiv | - | - | 2023 |
 
 
@@ -132,7 +132,7 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 ###### Brain-inspired Replay 2020
 | No. | Title   | Venue | Algorithm Name | Code | Year |
 |:-----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | [Remind your neural network to prevent catastrophic forgetting](https://link.springer.com/chapter/10.1007/978-3-030-58598-3_28) | ECCV | REMIND | [PyTorch(Author)](https://github.com/tyler-hayes/REMIND) |  2020 |
+| 01 | [Remind your neural network to prevent catastrophic forgetting](https://link.springer.com/chapter/10.1007/978-3-030-58598-3_28) | ECCV | REMIND | [GitHub](https://github.com/tyler-hayes/REMIND) |  2020 |
 | 02 | [Brain-inspired replay for continual learning with artificial neural networks](https://www.nature.com/articles/s41467-020-17866-2) | Nat Commun | BIR | - | 2020 |
 
 
@@ -141,21 +141,21 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 ###### Feature Replay 2024
 | No. | Title | Venue | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | [Learning prompt with distribution-based feature replay for few-shot class-incremental learning](https://arxiv.org/pdf/2401.01598) | arXiv | LP-DiF | [PyTorch(Author)](https://github.com/1170300714/LP-DiF) | 2024 |
+| 01 | [Learning prompt with distribution-based feature replay for few-shot class-incremental learning](https://arxiv.org/pdf/2401.01598) | arXiv | LP-DiF | [GitHub](https://github.com/1170300714/LP-DiF) | 2024 |
 | 02 | [Few-Shot Class-Incremental Learning via Cross-Modal Alignment with Feature Replay](https://link.springer.com/chapter/10.1007/978-981-97-8487-5_2) | PRCV | - | - | 2024 |
-| 03 | [SHARP: Sparsity and Hidden Activation RePlay for Neuro-Inspired Continual Learning](https://ieeexplore.ieee.org/abstract/document/10644996) | ICDL | SHARP | [PyTorch(Author)](https://github.com/BurakGurbuz97/SHARP-Continual-Learning) | 2024 |
+| 03 | [SHARP: Sparsity and Hidden Activation RePlay for Neuro-Inspired Continual Learning](https://ieeexplore.ieee.org/abstract/document/10644996) | ICDL | SHARP | [GitHub](https://github.com/BurakGurbuz97/SHARP-Continual-Learning) | 2024 |
 | 02 | [Prototype-guided memory replay for continual learning](https://ieeexplore.ieee.org/abstract/document/10058177) | TNNLS‌ | PMR | - | 2024 |
 ###### Feature Replay 2023
 | No. | Title | Venue | Algorithm Name | Code |Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | [Prototype reminiscence and augmented asymmetric knowledge aggregation for non-exemplar class-incremental learning](https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_Prototype_Reminiscence_and_Augmented_Asymmetric_Knowledge_Aggregation_for_Non-Exemplar_Class-Incremental_ICCV_2023_paper.pdf) | ICCV | NECIL | [PyTorch(Author)](https://shiwuxuan.github.io/PRAKA-project) | 2023 |
-| 02 | [Saving 100x storage: Prototype replay for reconstructing training sample distribution in class-incremental semantic segmentation](https://proceedings.neurips.cc/paper_files/paper/2023/file/708e0d691a22212e1e373dc8779cbe53-Paper-Conference.pdf) | NeurIPS | STAR | [PyTorch(Author)](https://github.com/jinpeng0528/STAR) | 2023 |
+| 01 | [Prototype reminiscence and augmented asymmetric knowledge aggregation for non-exemplar class-incremental learning](https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_Prototype_Reminiscence_and_Augmented_Asymmetric_Knowledge_Aggregation_for_Non-Exemplar_Class-Incremental_ICCV_2023_paper.pdf) | ICCV | NECIL | [GitHub](https://shiwuxuan.github.io/PRAKA-project) | 2023 |
+| 02 | [Saving 100x storage: Prototype replay for reconstructing training sample distribution in class-incremental semantic segmentation](https://proceedings.neurips.cc/paper_files/paper/2023/file/708e0d691a22212e1e373dc8779cbe53-Paper-Conference.pdf) | NeurIPS | STAR | [GitHub](https://github.com/jinpeng0528/STAR) | 2023 |
 | 03 | [Few shot class incremental learning via efficient prototype replay and calibration](https://www.mdpi.com/1099-4300/25/5/776) | ENTROPY-SWITZ‌ | EPRC  | - | 2023 |
 
 ###### Feature Replay 2022
 | No. | Title | Venue | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | [Continual learning with foundation models: An empirical study of latent replay](https://proceedings.mlr.press/v199/ostapenko22a/ostapenko22a.pdf) | CoLLAs‌| latent ER | [PyTorch(Author)](https://github.com/oleksost/latent_CL) | 2022 |
+| 01 | [Continual learning with foundation models: An empirical study of latent replay](https://proceedings.mlr.press/v199/ostapenko22a/ostapenko22a.pdf) | CoLLAs‌| latent ER | [GitHub](https://github.com/oleksost/latent_CL) | 2022 |
 | 02 | [Semantics-driven generative replay for few-shot class incremental learning](https://dl.acm.org/doi/abs/10.1145/3503161.3548160) | ACM MM‌ | GAN | - | 2022 |
 | 03 | [Prompt-based prototypical framework for continual relation extraction](https://ieeexplore.ieee.org/abstract/document/9860068) | TASLP‌ | CRE |- | 2022 |
 
@@ -166,84 +166,49 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 
 
 #### 1.1.3 Generative Replay
-###### Pruning Other Models
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Exploring Sparsity in Recurrent Neural Networks](https://arxiv.org/abs/1704.05119) | ICLR | `W` | - | [PyTorch](https://github.com/puhsu/pruning) | Speech Recognition | 2017 |
-| 02 | [Sparse Training via Boosting Pruning Plasticity with Neuroregeneration](https://arxiv.org/abs/2106.10404) | NeurIPS | `H` | GraNet | [PyTorch](https://github.com/VITA-Group/GraNet) | Image Classification | 2021 |
-| 03 | [Selfish Sparse RNN Training](http://proceedings.mlr.press/v139/liu21p/liu21p.pdf) | ICML | `W` | SNT-ASGD |[PyTorch(Anthor)](https://github.com/Shiweiliuiiiiiii/Selfish-RNN) | Language Modeling | 2021 |
-| 04 | [Dynamic Sparse Training for Deep Reinforcement Learning](https://arxiv.org/pdf/2106.04217.pdf) | IJCAI | `W` | - |[PyTorch(Anthor)](https://github.com/GhadaSokar/Dynamic-Sparse-Training-for-Deep-Reinforcement-Learning) | Continuous Control | 2022 |
-| 05 | [The State of Sparse Training in Deep Reinforcement Learning.](https://proceedings.mlr.press/v162/graesser22a/graesser22a.pdf) | ICML | `W` | - |[Tensorflow(Anthor)](github.com/google-research/rigl/tree/master/rigl/rl) | Continuous Control | 2022 |
+###### Generative Replay 2025
+| No. | Title   | Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01 | [Continual Learning of Personalized Generative Face Models with Experience Replay]([https://arxiv.org/abs/1704.05119](https://ieeexplore.ieee.org/abstract/document/10944168)) | WACV | - | [GitHub](https://anniedde.github.io/personalizedcontinuallearning.github.io/) | 2025 |
+| 02 | [AnchorInv: Few-Shot Class-Incremental Learning of Physiological Signals via Feature Space-Guided Inversion](https://ojs.aaai.org/index.php/AAAI/article/view/33563/35718) | AAAI | - | [GitHub](https://github.com/chenqi-li/anchorinv) | 2025 |
 
 
-###### Pruning After Training CNNs 2024
-| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Fast and Controllable Post-training Sparsity: Learning Optimal Sparsity Allocation with Global Constraint in Minutes](https://arxiv.org/abs/2203.04570) | AAAI | `W` | FCPTS | - | Image Classification&Object Detection | 2024 |
-| 02 | [UPDP: A Unified Progressive Depth Pruner for CNN and Vision Transformer](https://arxiv.org/pdf/2401.06426v1#page=3.05) | AAAI | `L` | UPDP | - | Image Classification&Object Detection | 2024 |
+###### Generative Replay 2024
+| No. | Title   | Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01 | [Continual offline reinforcement learning via diffusion-based dual generative replay](https://arxiv.org/pdf/2404.10662) | arXiv | CuGRO | [GitHub](https://github.com/NJU-RL/CuGRO) | 2024 |
+| 02 | [Clip with generative latent replay: a strong baseline for incremental learning](https://arxiv.org/pdf/2407.15793?) | arXiv | CGIL | [GitHub](https://github.com/aimagelab/mammoth) | 2024 |
+| 03 | [Few-shot task learning through inverse generative modeling](https://proceedings.neurips.cc/paper_files/paper/2024/file/) | NeurIPS | - | - | 2024 |
+| 04 | [General federated class-incremental learning with lightweight generative replay](https://ieeexplore.ieee.org/abstract/document/10612802/) | IEEE IoT-J | GenFCIL | - | 2024 |
 
-###### Pruning After Training CNNs 2023
-| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Unified Data-Free Compression: Pruning and Quantization without Fine-Tuning](https://arxiv.org/abs/2308.07209) | ICCV |  `C` | UDFC | -  | Image Classification | 2023|
-| 02 | [Unmasking the Lottery Ticket Hypothesis: What’s Encoded in a Winning Ticket’s Mask?](https://arxiv.org/abs/2210.03044) | ICLR(TOP-25%) | `W` | - | - | Image Classification | 2023 |
-| 03 | [DepGraph: Towards Any Structural Pruning](https://www.ijcai.org/proceedings/2018/0336.pdf) | CVPR | `C` | DepGraph | [PyTorch(Author)](https://github.com/VainF/Torch-Pruning)  | CV/NLP | 2023 |
-| 04 | [DFPC: Data flow driven pruning of coupled channels without data](https://openreview.net/forum?id=mhnHqRqcjYU) | ICLR | `C` | DFPC | [PyTorch(Author)](https://github.com/TanayNarshana/DFPC-Pruning)  | Image Classification | 2023 |
-| 05 | [Memory-Oriented Structural Pruning for Efficient Image Restoration](https://ojs.aaai.org/index.php/AAAI/article/view/25319) | AAAI | `C` | MOSP | -  | Image Restoration | 2023 |
-| 06 | [Trainability Preserving Nueral Structured Pruning](https://openreview.net/pdf?id=AZFvpnnewr) | ICLR | `F` | TPP | [Pytorch(Author)](https://github.com/MingSun-Tse/TPP) | Image Classification | 2023 |
+###### Generative Replay 2023
+| No. | Title | Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01 | [Task-aware information routing from common representation space in lifelong learning](https://arxiv.org/pdf/2302.11346) | arXiv | TAMiL | [GitHub](https://github.com/NeurAI-Lab/TAMiL) | 2023 |
+| 02 | [Class-incremental learning using diffusion model for distillation and replay](https://openaccess.thecvf.com/content/ICCV2023W/VCL/papers/Jodelet_Class-Incremental_Learning_Using_Diffusion_Model_for_Distillation_and_Replay_ICCVW_2023_paper.pdf) | ICCV | SDDR | - | 2023 |
 
-###### Pruning After Training CNNs 2022
-| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Gradient Flow in Sparse Neural Networks and How Lottery Tickets Win](https://arxiv.org/pdf/2010.03533.pdf) | AAAI | `W` | - | [PyTorch(Author)](https://github.com/google-research/rigl/tree/master/rigl/rigl_tf2) | Image Classification | 2022 |
-| 02 | [How Well Do Sparse ImageNet Models Transfer?](https://arxiv.org/abs/2111.13445) | CVPR | `W` | - |  [PyTorch(Author)](https://github.com/ISTDASLab/sparse-imagenet-transfer) | Image Classification&Object Detection | 2022 |
-| 03 | [Lottery Jackpots Exist in Pre-trained Models](https://arxiv.org/abs/2104.08700) | arXiv |  `W` | oBERT | [PyTorch(Author)](https://github.com/zyxxmu/lottery-jackpots/tree/main)| Image Classification | 2022|
-| 04 | [Graph Pruning for Model Compression](https://arxiv.org/abs/1911.09817) | Applied Intelligence | `W` | GraphPruning | - | Image Classification | 2022 |
-| 05 | [Advancing Model Pruning via Bi-level Optimization](https://arxiv.org/pdf/2210.04092.pdf) | NeurIPS |  `WC` | BiP | [PyTorch(Author)](https://github.com/OPTML-Group/BiP)  | Image Classification | 2022|
-| 06 | [Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning](https://arxiv.org/abs/2208.11580) | NeurIPS | `W` | ExactOBS  | [PyTorch(Author)](https://github.com/IST-DASLab/OBC) | Image Classification&Object Detection&Question Answering | 2022 |
-| 07 | [Prune Your Model Before Distill It](https://arxiv.org/abs/2109.14960) | ECCV | `F` | - | [PyTorch(Author)](https://github.com/ososos888/prune-then-distill) | Image Classification | 2022 |
-| 08 | [SOSP: Efficiently Capturing Global Correlations by Second-Order Structured Pruning](https://openreview.net/forum?id=t5EmXZ3ZLR) | ICLR **(Spotlight)** | `F` | SOSP | [PyTorch(Author)](https://github.com/boschresearch/sosp)(Releasing)  | Image Classification | 2022 |
-| 09 | [Dreaming to Prune Image Deraining Networks](https://arxiv.org/abs/2105.14713) | TPAMI | 1XN | - | [PyTorch(Author)](https://github.com/lmbxmu/1xN) | Image Classification | 2022 |
-| 10 | [1xN Pattern for Pruning Convolutional Neural Networks](https://openaccess.thecvf.com/content/CVPR2022/papers/Zou_Dreaming_To_Prune_Image_Deraining_Networks_CVPR_2022_paper.pdf) | CVPR | `F` | - | - | Image Deraining | 2022 |
-| 11 | [Prior Gradient Mask Guided Pruning-Aware Fine-Tuning](https://ojs.aaai.org/index.php/AAAI/article/view/19888) | AAAI | `C` | PGMPF | [PyTorch(Author)](https://github.com/cailinhang/PGMPF) | Image Classification | 2022 |
 
-###### Pruning After Training CNNs 2021
-| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [ChipNet: Budget-Aware Pruning with Heaviside Continuous Approximations](https://openreview.net/forum?id=xCxXwTzx4L1) | ICLR | `F` | ChipNet | [PyTorch(Author)](https://github.com/transmuteAI/ChipNet) |Image Classification | 2021 | 
-| 02 | [Sanity Checks for Lottery Tickets: Does Your Winning Ticket Really Win the Jackpot?](https://openreview.net/pdf?id=WL7pr00_fnJ) | NeurIPS | `W` | - |  [PyTorch(Author)](https://github.com/boone891214/sanity-check-LTH) |Image Classification | 2021 |
-| 03 | [Multi-Prize Lottery Ticket Hypothesis: Finding Accurate Binary Neural Networks by Pruning A Randomly Weighted Network](https://openreview.net/forum?id=U_mat0b9iv) | ICLR | `W` | MPTs | [PyTorch(Author)](https://github.com/chrundle/biprop) | Image Classification | 2021 |
-| 04 | [Long live the lottery: the existence of winning tickets in lifelong learning](https://arxiv.org/abs/1906.02773) | ICLR | `W` | - | [PyTorch(Author)](https://github.com/VITA-Group/Lifelong-Learning-LTH) | Image Classification | 2021 |
-| 05 | [Enabling Retrain-free Deep Neural Network Pruning Using Surrogate Lagrangian Relaxation](https://arxiv.org/abs/2012.10079) | IJCAI | `W` | - | - | Image Classification & Object Detection | 2021 |
-| 06 | [Joint-DetNAS: Upgrade Your Detector with NAS, Pruning and Dynamic Distillation](https://arxiv.org/abs/2105.12971)| CVPR | `F`| Joint-DetNAS | - | Image Classification & Object Detection | 2021 |
-| 07 | [Validating the Lottery Ticket Hypothesis with Inertial Manifold Theory](https://papers.nips.cc/paper/2021/hash/fdc42b6b0ee16a2f866281508ef56730-Abstract.html)  | NeurIPS | `W`     | - | - | Image Classification | 2021 |
-| 08 | [Towards Compact CNNs via Collaborative Compression](https://arxiv.org/abs/2105.11228) | CVPR | `F` | CC | [PyTorch(Author)](https://github.com/liuguoyou/Towards-Compact-CNNs-via-Collaborative-Compression) | Image Classification | 2021 |
-| 09 | [NPAS: A Compiler-aware Framework of Unified Network Pruning andArchitecture Search for Beyond Real-Time Mobile Acceleration](https://arxiv.org/abs/2012.00596) | CVPR | `F` | NPAS | - | Image Classification | 2021 | 
-| 10 | [Neural Pruning via Growing Regularization](https://openreview.net/pdf?id=o966_Is_nPA) | ICLR | `WF` | Greg | - | Image Classification | 2021 |
-| 11 | [Towards Adversarial Robustness Via Compact Feature Representations](https://ieeexplore.ieee.org/document/9414696) | ICASSP| `N` | -  | [PyTorch(Author)](https://github.com/lena-voita/the-story-of-heads)| Adversarial Robustness | 2021 |
-| 12 | [On the Predictability of Pruning Across Scales](https://arxiv.org/abs/2006.10621) | ICML | `W` | -| - | Image Classification | 2021 |
-| 13 | [How much pre-training is enough to discover a good subnetwork?](https://arxiv.org/abs/2108.00259) | arXiv | `W` | -| - | Image Classification | 2021 |
-| 14 | [The Lottery Tickets Hypothesis for Supervised and Self-supervised Pre-training in Computer Vision Models](https://arxiv.org/pdf/2005.05232.pdf) | CVPR | `W` | -| [PyTorch(Author)](https://github.com/VITA-Group/CV_LTH_Pre-training) | Image Classification | 2021 |
-| 15 | [The Elastic Lottery Ticket Hypothesis](https://papers.nips.cc/paper/2021/hash/dfccdb8b1cc7e4dab6d33db0fef12b88-Abstract.html)  | NeurIPS | `W` | E-LTH | [PyTorch(Author)](https://github.com/VITA-Group/ElasticLTH) | Image Classification | 2021 | 
-| 16 | [Accelerated Sparse Neural Training: A Provable and Efficient Method to Find N:M Transposable Masks](https://arxiv.org/abs/2102.08124)  | NeurIPS | N:M | AdaPrune | [PyTorch(Author)](https://github.com/papers-submission/structured_transposable_masks) | Image Classification | 2021 | 
-| 17 | [Why Lottery Ticket Wins? A Theoretical Perspective of Sample Complexity on Sparse Neural Networks](https://papers.nips.cc/paper/2021/hash/15f99f2165aa8c86c9dface16fefd281-Abstract.html) | NeurIPS | `W` | - | - | Image Classification | 2021 |
-| 18 | [Group Fisher Pruning for Practical Network Compression](https://arxiv.org/abs/2108.00708) | ICML | `F` | GFP | [PyTorch(Author)](https://github.com/jshilong/FisherPruning) | Image Classification&Object Detection | 2021 |
-| 19 | [TransTailor: Pruning the Pre-trained Model for Improved Transfer Learning](https://arxiv.org/abs/2103.01542) | AAAI | `F` | TransTailor | - | Image Classification | 2021 |
-| 20 | [Network Pruning That Matters: A Case Study on Retraining Variants](https://openreview.net/forum?id=Cb54AMqHQFP) | ICLR | `F` | - | [PyTorch(Author)](https://github.com/lehduong/NPTM) | Image Classification | 2021 | 
-| 21 | [The Lottery Ticket Hypothesis for Object Recognition](https://openaccess.thecvf.com/content/CVPR2021/papers/Girish_The_Lottery_Ticket_Hypothesis_for_Object_Recognition_CVPR_2021_paper.pdf) | CVPR | `W` | - | [PyTorch(Author)](https://github.com/Sharath-girish/LTH-ObjectRecognition) | Object Detection | 2021 |
-| 22 | [Lottery Jackpot Exist in Pre-trained Models](https://arxiv.org/pdf/2104.08700.pdf) | TPAMI | `W` | Jackpot | [PyTorch(Author)](https://github.com/zyxxmu/lottery-jackpots) | Image Classification |2021 |
-| 23 | [Accelerate CNNs from Three Dimensions: A Comprehensive Pruning Framework](https://arxiv.org/abs/2010.04879) | ICML | `F` | - | - | Image Classification | 2021 | 
-| 24 | [Network Pruning via Performance Maximization](https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_Network_Pruning_via_Performance_Maximization_CVPR_2021_paper.pdf) | CVPR | `F` | NPPM | [Pytorch(Author)](https://github.com/gaosh/NPPM) | Image Classification | 2021 |
-| 25 | [Accelerating Sparse Deep Neural Networks](https://arxiv.org/abs/2104.08378) | arXiv | `W` | - | - | Image Classification&Image Segmentation and Detection&Language Modeling&Language Translation | 2021 |
+###### Generative Replay 2022
+| No. | Title | Type | Algorithm Name | Code |Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01 | [Few-shot class-incremental learning via entropy-regularized data-free replay](https://link.springer.com/chapter/10.1007/978-3-031-20053-3_9) | ECCV | - | - | 2022 |
+| 02 | [Memory replay with data compression for continual learning](https://arxiv.org/pdf/2202.06592) | arXiv | MRDC | - | 2022 |
+| 03 | [Semantics-driven generative replay for few-shot class incremental learning](https://dl.acm.org/doi/abs/10.1145/3503161.3548160) | Proc ACM Int Conf Multimed | - | - | 2022 |
+
+###### Generative Replay 2021
+| No. | Title | Type | Algorithm Name | Code| Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01 | [Triple-memory networks: A brain-inspired method for continual learning](https://ieeexplore.ieee.org/abstract/document/9540230/) | TNNLS | TMNs | - | 2021 |
+ 
  
 ###### Pruning After Training CNNs 2020
 | No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [SCOP: Scientific Control for Reliable Neural Network Pruning](https://arxiv.org/abs/2001.08565) | NeurIPS | `F` | SCOP | [PyTorch(Author)](https://github.com/yehuitang/Pruning/tree/master/SCOP_NeurIPS2020) | Image Classification | 2020 |
 | 02 | [Discrete Model Compression With Resource Constraint for Deep Neural Networks](http://openaccess.thecvf.com/content_CVPR_2020/html/Gao_Discrete_Model_Compression_With_Resource_Constraint_for_Deep_Neural_Networks_CVPR_2020_paper.html) | CVPR | `F` | - | - | Image Classification | 2020 |
-| 03 | [HRank: Filter Pruning using High-Rank Feature Map](https://arxiv.org/abs/2002.10179) | CVPR | `F` | HRank | [Pytorch(Author)](https://github.com/lmbxmu/HRank) | Image Classification | 2020 |
+| 03 | [HRank: Filter Pruning using High-Rank Feature Map](https://arxiv.org/abs/2002.10179) | CVPR | `F` | HRank | [PyTorch(Author)](https://github.com/lmbxmu/HRank) | Image Classification | 2020 |
 | 04 | [Learning Filter Pruning Criteria for Deep Convolutional Neural Networks Acceleration](http://openaccess.thecvf.com/content_CVPR_2020/html/He_Learning_Filter_Pruning_Criteria_for_Deep_Convolutional_Neural_Networks_Acceleration_CVPR_2020_paper.html) | CVPR | `F` | LFPC | - | Image Classification | 2020 | 
-| 05 | [Towards Efficient Model Compression via Learned Global Ranking](https://arxiv.org/abs/1904.12368)| CVPR | `F` | LeGR | [Pytorch(Author)](https://github.com/cmu-enyac/LeGR) | Image Classification | 2020 |
+| 05 | [Towards Efficient Model Compression via Learned Global Ranking](https://arxiv.org/abs/1904.12368)| CVPR | `F` | LeGR | [PyTorch(Author)](https://github.com/cmu-enyac/LeGR) | Image Classification | 2020 |
 | 06 | [Reborn filters: Pruning convolutional neural networks with limited data](https://ojs.aaai.org/index.php/AAAI/article/view/6058) | AAAI | `F` | - | - | Image Classification | 2020 |
 | 07 | [Operation-Aware Soft Channel Pruning using Differentiable Masks](https://arxiv.org/abs/2007.03938) | ICML| `F` | SCP | - | Image Classification | 2020 |
 | 08 | [Neural Network Pruning with Residual-Connections and Limited-Data](https://arxiv.org/abs/1911.08114) | CVPR | `C` | CURL | [PyTorch(Author)](https://github.com/Roll920/CURL) | Image Classification | 2020 |
