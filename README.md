@@ -162,7 +162,7 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 ###### Feature Replay 2021
 | No. | Title | Venue  | Algorithm Name | Code  | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | [Generative feature replay for class-incremental learning](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w15/Liu_Generative_Feature_Replay_for_Class-Incremental_Learning_CVPRW_2020_paper.pdf) | CVPR | CCA |[PyTorch(Anthor)](https://github.com/xialeiliu/GFR-IL) | 2021 |
+| 01 | [Generative feature replay for class-incremental learning](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w15/Liu_Generative_Feature_Replay_for_Class-Incremental_Learning_CVPRW_2020_paper.pdf) | CVPR | CCA |[GitHub](https://github.com/xialeiliu/GFR-IL) | 2021 |
 
 
 #### 1.1.3 Generative Replay
