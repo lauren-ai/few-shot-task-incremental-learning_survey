@@ -169,7 +169,7 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 ###### Generative Replay 2025
 | No. | Title   | Type | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | [Continual Learning of Personalized Generative Face Models with Experience Replay]([https://arxiv.org/abs/1704.05119](https://ieeexplore.ieee.org/abstract/document/10944168)) | WACV | - | [GitHub](https://anniedde.github.io/personalizedcontinuallearning.github.io/) | 2025 |
+| 01 | [Continual Learning of Personalized Generative Face Models with Experience Replay](https://ieeexplore.ieee.org/abstract/document/10944168) | WACV | - | [GitHub](https://anniedde.github.io/personalizedcontinuallearning.github.io/) | 2025 |
 | 02 | [AnchorInv: Few-Shot Class-Incremental Learning of Physiological Signals via Feature Space-Guided Inversion](https://ojs.aaai.org/index.php/AAAI/article/view/33563/35718) | AAAI | - | [GitHub](https://github.com/chenqi-li/anchorinv) | 2025 |
 
 
