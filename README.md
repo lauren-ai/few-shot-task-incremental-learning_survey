@@ -1,4 +1,4 @@
-<img width="296" height="70" alt="image" src="https://github.com/user-attachments/assets/34d22392-2342-44c3-8dac-5387924d5cb0" /><img width="257" height="70" alt="image" src="https://github.com/user-attachments/assets/fd525040-3fa2-44ca-914e-9f711097940b" /><img width="357" height="70" alt="image" src="https://github.com/user-attachments/assets/2fb1fa0a-8066-4601-9d9d-930340da9513" /># Few-shot Task-incremental Learning: Methods, Challenges, and Future Directions
+# Few-shot Task-incremental Learning: Methods, Challenges, and Future Directions
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)[![Few-shot Task-incremental Learning: Methods, Challenges, and Future Directions](https://awesome.re/badge.svg)](https://awesome.re)
 ## Table of Contents
 - [Few-shot Task-incremental Learning: Methods, Challenges, and Future Directions](#few-shot-task-incremental-learning-methods-challenges-and-future-directions)
