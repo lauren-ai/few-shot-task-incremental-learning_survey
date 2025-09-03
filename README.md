@@ -201,7 +201,7 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 | 01 | [Triple-memory networks: A brain-inspired method for continual learning](https://ieeexplore.ieee.org/abstract/document/9540230/) | TNNLS | TMNs | - | 2021 |
  
  
-#### 1.1.3 Pseudo-scenarios Reply
+#### 1.1.4 Pseudo-scenarios Reply
 ###### Pseudo-scenarios Reply 2025
 | No. | Title |Type | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
@@ -237,7 +237,7 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 | 03 | [Self-supervised label augmentation via input transformations](https://proceedings.mlr.press/v119/lee20c/lee20c.pdf) | ICML    | SLA  | [GitHub](https://github.com/hankook/SLA) | 2020 |
 
 
-#### 1.1.4 Raw-data replay
+#### 1.1.5 Raw-data replay
 ###### Raw-data replay 2025
 | No. | Title |Type | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
