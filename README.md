@@ -1,4 +1,4 @@
-# Few-shot Task-incremental Learning: Methods, Challenges, and Future Directions
+<img width="333" height="70" alt="image" src="https://github.com/user-attachments/assets/0eccbc7e-1226-4922-a72e-7dea1b755f1f" /># Few-shot Task-incremental Learning: Methods, Challenges, and Future Directions
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)[![Few-shot Task-incremental Learning: Methods, Challenges, and Future Directions](https://awesome.re/badge.svg)](https://awesome.re)
 ## Table of Contents
 - [Few-shot Task-incremental Learning: Methods, Challenges, and Future Directions](#few-shot-task-incremental-learning-methods-challenges-and-future-directions)
@@ -271,33 +271,78 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 
 ### 1.2 Data-Augmentation-Based Approaches 
 #### 1.2.1 Data Augmentation
-###### Data Augmentation 2025
+###### Data Augmentation 2024
 | No. | Title |Type | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | [Generalized and incremental few-shot learning by explicit learning and calibration without forgetting](https://openaccess.thecvf.com/content/ICCV2021/papers/Kukleva_Generalized_and_Incremental_Few-Shot_Learning_by_Explicit_Learning_and_Calibration_ICCV_2021_paper.pdf) | ICCV | LCwoF | [GitHub](https://github.com/annusha/LCwoF) | 2021 |
-| 02 |  [Few-shot incremental learning with continually evolved classifiers](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Few-Shot_Incremental_Learning_With_Continually_Evolved_Classifiers_CVPR_2021_paper.pdf)  | CVPR   | CEC  | - | 2021 |
-
-###### Pruning After Training CNNs 2017 and earlier
-| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Optimal Brain Damage](https://proceedings.neurips.cc/paper/1989/file/6c9882bbac1c7093bd25041881277658-Paper.pdf) | NIPS | `W` | OBD | - | Image Classification | 1989 |
-| 02 | [Second Order Derivatives for Network Pruning: Optimal Brain Surgeon](https://proceedings.neurips.cc/paper/1992/file/303ed4c69846ab36c2904d3ba8573050-Paper.pdf) | NIPS | `W` | OBS | - | Image Classification | 1992 |
-| 03 | [Structured Pruning of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1512.08571) | arXiv | `C` | - | - | Image Classification | 2015 |
-| 04 | [Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding](https://arxiv.org/abs/1510.00149) | ICLR **(Best)** | `W`  | - |[Caffe(Author)](https://github.com/songhan/Deep-Compression-AlexNet) | Image Classification | 2016 |
-| 05 | [ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression](https://arxiv.org/abs/1707.06342) | ICCV&TPAMI | `F` | ThiNet | [Caffe(Author)](https://github.com/Roll920/ThiNet), [PyTorch(3rd)](https://github.com/tranorrepository/reprod-thinet) | Image Classification | 2017&2019 |
-| 06 | [Pruning Convolutional Neural Networks for Resource Efficient Inference](https://arxiv.org/abs/1611.06440) | ICLR | `F` | - | [PyTorch](https://github.com/jacobgil/pytorch-pruning/tree/master) | Image Classification | 2017 |
-| 07 | [Pruning Filters for Efficient ConvNets](https://arxiv.org/abs/1608.08710) | ICLR    | `F`  | PFEC | [PyTorch(3rd)](https://github.com/Eric-mingjie/rethinking-network-pruning/tree/master/imagenet/l1-norm-pruning) | Image Classification | 2017 |
-| 08 | [Channel pruning for accelerating very deep neural networks](https://arxiv.org/abs/1707.06168) | ICCV | `C` | - | [Caffe(Author)](https://github.com/yihui-he/channel-pruning) |Image Classification&Object Detection | 2017 |
+| 01 | [Cascade prompt learning for vision-language model adaptation](https://arxiv.org/pdf/2409.17805) | ECCV  | CasPL  | [GitHub](https://github.com/megvii-research/CasPL) | 2024 |
+| 02 |  [Concept-guided prompt learning for generalization in vision-language models](https://ojs.aaai.org/index.php/AAAI/article/download/28568/29104)  | AAAI | CPL   | [GitHub](https://github.com/rambo-coder/CPL) | 2024 |
+| 03 |  [Making pre-trained language models better continual few-shot relation extractors](https://arxiv.org/pdf/2402.15713)   | arXiv | CPL   | [GitHub](https://github.com/mashengkun/CPL) | 2024 |
+| 04 |   [Conditional prototype rectification prompt learning](https://ieeexplore.ieee.org/abstract/document/11069290/)  | TCSVT   | CPR  | [GitHub](https://github.com/chenhaoxing/CPR) | 2024 |
+| 05 |  [M³PL: Identifying and Exploiting View Bias of Prompt Learning](https://openreview.net/pdf?id=2rnTIBm19V) | Transact Mach Learn Res | M³PL | - | 2024 |
+| 06 | [Rethinking misalignment in vision-language model adaptation from a causal perspective](https://proceedings.neurips.cc/paper_files/paper/2024/file/453a27b717972ef94a9a9113d236ad2f-Paper-Conference.pdf) | NeurIPS | CDC | [NeurIPS Code Policy](https://nips.cc/public/guides/CodeSubmissionPolicy) | 2024 |
+| 07 |  [Learning to learn for few-shot continual active learning](https://link.springer.com/content/pdf/10.1007/s10462-024-10924-x.pdf) | ARTIF INTELL REV | Meta-CAL | [PyTorch 1.10.0+cu113](https://pytorch.org/1.10.0+cu113) | 2024 |
+| 08 |  [HPT++: Hierarchically Prompting Vision-Language Models with Multi-Granularity Knowledge Generation and Improved Structure Modeling](https://arxiv.org/pdf/2408.14812) | arXiv | HPT++ | - | 2024 |
+| 09 |  [Learning hierarchical prompt with structured linguistic knowledge for vision-language models](https://ojs.aaai.org/index.php/AAAI/article/view/28387/28756) | AAAI | HPT | [GitHub](https://github.com/Vill-Lab/2024-AAAI-HPT) | 2024 |
+| 10 |   [Active prompt learning in vision language models](https://openaccess.thecvf.com/content/CVPR2024/papers/Bang_Active_Prompt_Learning_in_Vision_Language_Models_CVPR_2024_paper.pdf) | CVPR | PCB | [GitHub](https://github.com/kaist-dmlab/pcb) | 2024 |
 
 
+###### Data Augmentation 2023
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01 | [Serial contrastive knowledge distillation for continual few-shot relation extraction](https://arxiv.org/pdf/2305.06616) | arXiv | SCKD | [GitHub](https://github.com/nju-websoft/SCKD) | 2023 |
+| 02 | [Task-oriented multi-modal mutual leaning for vision-language models](https://openaccess.thecvf.com/content/ICCV2023/papers/Long_Task-Oriented_Multi-Modal_Mutual_Leaning_for_Vision-Language_Models_ICCV_2023_paper.pdf) | ICCV | CTP | - | 2023 |
+| 03 |[LoGoPrompt: Synthetic text images can be good visual prompts for vision-language models](https://openaccess.thecvf.com/content/ICCV2023/papers/Shi_LoGoPrompt_Synthetic_Text_Images_Can_Be_Good_Visual_Prompts_for_ICCV_2023_paper.pdf) | ICCV | LoGoPrompt | [GitHub](https://chengshiest.github.io/logo) | 2023 |
+| 04 |[MaPLe: Multi-modal prompt learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Khattak_MaPLe_Multi-Modal_Prompt_Learning_CVPR_2023_paper.pdf) | CVPR | MaPLe | [GitHub](https://github.com/muzairkhattak/multimodal-prompt-learning) | 2023 |
+| 05 |[Ranpac: Random projections and pre-trained models for continual learning](https://proceedings.neurips.cc/paper_files/paper/2023/file/2793dc35e14003dd367684d93d236847-Paper-Conference.pdf) | NeurIPS | RanPAC | [GitHub](https://github.com/RanPAC/RanPAC) | 2023 |
+| 06 |[Few shot class incremental learning via efficient prototype replay and calibration](https://www.mdpi.com/1099-4300/25/5/776) | Entropy | EPRC | - | 2023 |
 
-#### 1.1.4 Pseudo-scenarios Replay
-###### Pruning After Training ViTs 2024
-| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Fast and Controllable Post-training Sparsity: Learning Optimal Sparsity Allocation with Global Constraint in Minutes](https://arxiv.org/abs/2203.04570) | AAAI | `W` | FCPTS | - | Image Classification&Object Detection | 2024 |
-| 02 | [UPDP: A Unified Progressive Depth Pruner for CNN and Vision Transformer](https://arxiv.org/pdf/2401.06426v1#page=3.05) | AAAI | `L` | UPDP | - | Image Classification&Object Detection | 2024 |
-| 03 | [Pruning Self-attentions into Convolutional Layers in Single Path](https://arxiv.org/abs/2111.11802) | TPAMI | `H` | SPViT |  [PyTorch](https://github.com/ziplab/SPViT) | Image Classification&Object Detection | 2024 |
+###### Data Augmentation 2022 and earlier
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01 | [Learning to decompose visual features with latent textual prompts](https://arxiv.org/pdf/2210.04287) | arXiv | DeFo | - | 2022 |
+| 02 |[Plot: Prompt learning with optimal transport for vision-language models](https://arxiv.org/pdf/2210.01253) | arXiv | PLOT | [GitHub](https://github.com/CHENGY12/PLOT) | 2022 |
+| 03 | [Prompt distribution learning](http://openaccess.thecvf.com/content/CVPR2022/papers/Lu_Prompt_Distribution_Learning_CVPR_2022_paper.pdf) | CVPR | ProDA | - | 2022 |
+| 04 |[Conditional prompt learning for vision-language models](http://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_Conditional_Prompt_Learning_for_Vision-Language_Models_CVPR_2022_paper.pdf) | CVPR | CoCoOp | [GitHub](https://github.com/KaiyangZhou/CoOp) | 2022 |
+| 05 |[Learning to prompt for vision-language models](https://arxiv.org/pdf/2109.01134) | IJCV | CoOp | [GitHub](https://github.com/KaiyangZhou/CoOp) | 2022 |
+| 06 |[Continual few-shot relation learning via embedding space regularization and data augmentation](https://arxiv.org/pdf/2203.02135) | arXiv | CFRL | [GitHub](https://github.com/qcwthu/Continual_Fewshot_Relation_Learning) | 2022 |
+| 07 | zhu2021self | [Self-promoted prototype refinement for few-shot class-incremental learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Self-Promoted_Prototype_Refinement_for_Few-Shot_Class-Incremental_Learning_CVPR_2021_paper.pdf) | CVPR | SPPR | - | 2021 |
+
+#### 1.2.2 Feature Augmentation
+###### Feature Augmentation 2025
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+|01| [Contrastive augmented graph2graph memory interaction for few shot continual learning](https://ieeexplore.ieee.org/abstract/document/10841449/ ) | TCSVT | LGP | -  | 2025 |
+
+
+###### Feature Augmentation 2024
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+|01| [Improving Continual Few-shot Relation Extraction through Relational Knowledge Distillation and Prototype Augmentation](https://aclanthology.org/2024.lrec-main.767.pdf) | LREC-COLING  | RK2DA | - | 2024 |
+|02| [Making pre-trained language models better continual few-shot relation extractors](https://arxiv.org/pdf/2402.15713) | arXiv| CPL | [GitHub](https://github.com/mashengkun/CPL)| 2024 |
+|03| [Conditional prototype rectification prompt learning](https://ieeexplore.ieee.org/abstract/document/11069290/) | TCSVT  | CPR  | [GitHub](https://github.com/chenhaoxing/CPR)  | 2024 |
+|04| [Modal-aware prompt tuning with deep adaptive feature enhancement](https://www.sciencedirect.com/science/article/abs/pii/S0045790624001988)| COMPUT_ELECTR_ENG | MAP-DAFE| -| 2024 |
+|05| [A hard-to-beat baseline for training-free clip-based adaptation](https://arxiv.org/pdf/2402.04087) | arXiv | GDA  | [GitHub](https://github.com/mrflogs/ICLR24) | 2024 |
+|06| [APLe: Token-Wise Adaptive for Multi-Modal Prompt Learning] (https://arxiv.org/pdf/2401.06827) | arXiv | APLe | - | 2024 |
+
+
+###### Feature Augmentation 2023
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | [Consistent prototype learning for few-shot continual relation extraction](https://aclanthology.org/2023.acl-long.409.pdf ) | ACL | ConPL  | [GitHub](https://github.com/XiudiChen/ConPL) | 2023 |
+| 02  | [Ica-proto: Iterative cross alignment prototypical network for incremental few-shot relation classification](https://aclanthology.org/2023.findings-eacl.171.pdf) | EACL | ICA-Proto  | -  | 2023 |
+| 03  | [Task-oriented multi-modal mutual leaning for vision-language models](https://openaccess.thecvf.com/content/ICCV2023/papers/Long_Task-Oriented_Multi-Modal_Mutual_Leaning_for_Vision-Language_Models_ICCV_2023_paper.pdf)    | ICCV | CTP  | -  | 2023 |
+| 04  | [Ranpac: Random projections and pre-trained models for continual learning](https://proceedings.neurips.cc/paper_files/paper/2023/file/2793dc35e14003dd367684d93d236847-Paper-Conference.pdf) | NeurIPS  | RanPAC  | [GitHub](https://github.com/RanPAC/RanPAC)  | 2023 |
+| 05  | [Few-shot class-incremental learning for medical time series classification](https://drive.google.com/file/d/1hsaJUvUPMAcMHuAoqL0wKUssG_o9rR71/view) | J-BHI   | MAPIC | - | 2023 |
+| 06  | [Gkeal: Gaussian kernel embedded analytic learning for few-shot class incremental task](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhuang_GKEAL_Gaussian_Kernel_Embedded_Analytic_Learning_for_Few-Shot_Class_Incremental_CVPR_2023_paper.pdf) | CVPR | GKEAL  | -  | 2023 |
+| 07 | [Self-regulating prompts: Foundational model adaptation without forgetting](https://openaccess.thecvf.com/content/ICCV2023/papers/Khattak_Self-regulating_Prompts_Foundational_Model_Adaptation_without_Forgetting_ICCV_2023_paper.pdf ) | ICCV | PromptSR | [GitHub](https://github.com/muzairkhattak/PromptSRC) | 2023 |
+
+###### Feature Augmentation 2022 and earlier
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | [Self-promoted prototype refinement for few-shot class-incremental learning]( https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Self-Promoted_Prototype_Refinement_for_Few-Shot_Class-Incremental_Learning_CVPR_2021_paper.pdf) | CVPR   | SPPR | -| 2021 |
+| 02  | [Prototype augmentation and self-supervision for incremental learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Prototype_Augmentation_and_Self-Supervision_for_Incremental_Learning_CVPR_2021_paper.pdf)|CVPR | PASS| [GitHub](https://github.com/Impression2805/CVPR21_PASS)| 2021 |
+| 03  | [Memory-efficient incremental learning through feature adaptation](https://link.springer.com/chapter/10.1007/978-3-030-58517-4_41 )| ECCV |Feature_Adaptation | -  | 2020 |
+
 
 ###### Pruning After Training ViTs 2023
 | No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
