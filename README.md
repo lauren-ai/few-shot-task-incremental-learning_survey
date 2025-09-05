@@ -343,166 +343,237 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 | 02  | [Prototype augmentation and self-supervision for incremental learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Prototype_Augmentation_and_Self-Supervision_for_Incremental_Learning_CVPR_2021_paper.pdf)|CVPR | PASS| [GitHub](https://github.com/Impression2805/CVPR21_PASS)| 2021 |
 | 03  | [Memory-efficient incremental learning through feature adaptation](https://link.springer.com/chapter/10.1007/978-3-030-58517-4_41 )| ECCV |Feature_Adaptation | -  | 2020 |
 
+## 2. Model Based Approaches 
+### 2.1 Architecture-Based Approaches 
+#### 2.1.1 Attention-based
+###### Attention-based 2024
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | [SEP: Self-Enhanced Prompt Tuning for Visual-Language Model](https://arxiv.org/pdf/2405.15549) |arXiv| SEP| [GitHub](https://github.com/htyao89/SEP/) | 2024 |
+| 02  | [Semantic Alignment for Prompt-Tuning in Vision Language Models](https://openreview.net/pdf?id=avDr56QjSI) | TMLR  | SAP | -  | 2024 |
+| 03  | [Revisiting prompt pretraining of vision-language models](https://arxiv.org/pdf/2409.06166) | arXiv | RPP | - | 2024 |
+| 04 | [Few-shot class incremental learning with attention-aware self-adaptive prompt](https://link.springer.com/chapter/10.1007/978-3-031-73004-7_1) | ECCV         | ASP | [GitHub](https://github.com/DawnLIU35/FSCIL-ASP) | 2024 |
+|05| [M2sd: Multiple mixing self-distillation for few-shot class-incremental learning](https://ojs.aaai.org/index.php/AAAI/article/view/28129) | AAAI| M2SD | - |2024|
+|06| [HPT++: Hierarchically Prompting Vision-Language Models with Multi-Granularity Knowledge Generation and Improved Structure Modeling](https://arxiv.org/pdf/2408.14812) | arXiv | HPT++  | - | 2024 |
 
-###### Pruning After Training ViTs 2023
-| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [X-Pruner: eXplainable Pruning for Vision Transformers](https://arxiv.org/abs/2303.04935) | CVPR | `CH` | X-Pruner | [Pytorch(Author)](https://github.com/vickyyu90/XPruner) | Image Classification | 2023 |
-| 02 | [Global Vision Transformer Pruning with Hessian-Aware Saliency](https://arxiv.org/abs/2110.04869) | CVPR | `CH` | NViT | - | Image Classification | 2023 |
-| 03 | [Pruning Parameterization with Bi-level Optimization for Efficient Semantic Segmentation on the Edge](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Pruning_Parameterization_With_Bi-Level_Optimization_for_Efficient_Semantic_Segmentation_on_CVPR_2023_paper.pdf) | CVPR | `W` | STE | - | semantic Segmentation | 2023 |
-| 04 | [Instant Soup: Cheap Pruning Ensembles in A Single Pass Can Draw Lottery Tickets from Large Models](https://arxiv.org/abs/2306.10460) | ICML | `W` | ISP | [Pytorch(Author)](https://github.com/VITA-Group/instant_soup) | Image Classification&NLP | 2023 |
+###### Attention-based 2023 and earlier
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+|01| [Coda-prompt: Continual decomposed attention-based prompting for rehearsal-free continual learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Smith_CODA-Prompt_COntinual_Decomposed_Attention-Based_Prompting_for_Rehearsal-Free_Continual_Learning_CVPR_2023_paper.pdf) | CVPR | CODA-Prompt | [GitHub](https://github.com/GT-RIPL/CODA-Prompt)  | 2023 |
+|02| [Dpl: Decoupled prompt learning for vision-language models](https://arxiv.org/pdf/2308.10061) | arXiv | DPL | -   | 2023 |
+|03| [Continual learning with lifelong vision transformer](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Continual_Learning_With_Lifelong_Vision_Transformer_CVPR_2022_paper.pdf) | CVPR  | LVT  | - | 2022 |
 
-###### Pruning After Training ViTs 2022
-| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Width & Depth Pruning for Vision Transformers](https://cdn.aaai.org/ojs/20222/20222-13-24235-1-2-20220628.pdf) | AAAI | `C` | WDPruning | [Pytorch(Author)](https://github.com/andyrull/width-and-Depth-pruning-for-Vision-Transformer) | Image Classification | 2022 |
-| 02 | [SAViT: Structure-Aware Vision Transformer Pruning via Collaborative Optimization](https://cdn.aaai.org/ojs/20222/20222-13-24235-1-2-20220628.pdf) | NeurIPS | `CHE` | SAViT | [Pytorch(Author)](https://github.com/hikvision-research/SAViT) | Image Classification&object detection | 2022 |
-| 03 | [VTC-LFC: Vision Transformer Compression with Low-Frequency Components](https://papers.neurips.cc/paper_files/paper/2022/file/5a8177df23bdcc15a02a6739f5b9dd4a-Paper-Conference.pdf) | NeurIPS | `C` | VTC-LFC | [Pytorch(Author)](https://github.com/Daner-Wang/VTC-LFC) | Image Classification | 2022 |
-| 04 | [CP-ViT: Cascade Vision Transformer Pruning via Progressive Sparsity Prediction](https://arxiv.org/abs/2203.04570) | arXiv | `H` | CP-ViT  | - | Image Classification | 2022 |
-| 05 | [Unified Visual Transformer Compression](https://arxiv.org/abs/2203.08243) | ICLR | `H` | UVC  | [Pytorch(Author)](https://github.com/VITA-Group/UVC) | Image Classification | 2022 |
+#### 2.1.2 Dynamic network structure-based
+###### Dynamic network structure-based 2025
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+|01|[Skip tuning: Pre-trained vision-language models are effective and efficient adapters themselves](https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_Skip_Tuning_Pre-trained_Vision-Language_Models_are_Effective_and_Efficient_Adapters_CVPR_2025_paper.pdf) | CVPR | Skip_Tuning| [GitHub](https://github.com/Koorye/SkipTuning)| 2025 |
+|02| [Continuous Knowledge-Preserving Decomposition for Few-Shot Continual Learning](https://arxiv.org/pdf/2501.05017) | arXiv | CKPD-FSCIL| [GitHub](https://github.com/xiaojieli0903/CKPD-FSCIL) | 2025 |
 
-#### 1.1.5 Raw-data Replay
-###### Pruning After Training BERTs 2023
-| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [LoSparse: Structured Compression of Large Language Models based on Low-Rank and Sparse Approximation](https://proceedings.mlr.press/v202/li23ap/li23ap.pdf) | ICML |  `H` | LoSparse | [PyTorch(Author)](https://github.com/yxli2123/LoSparse) | NLP | 2023|
-| 02 | [Instant Soup: Cheap Pruning Ensembles in A Single Pass Can Draw Lottery Tickets from Large Models](https://arxiv.org/abs/2306.10460) | ICML | `W` | ISP | [Pytorch(Author)](https://github.com/VITA-Group/instant_soup) | Image Classification&NLP | 2023 |
-| 03 | [Gradient-Free Structured Pruning with Unlabeled Data](https://arxiv.org/pdf/2204.00408.pdf) | ICML |  `F` | KCM | - | NLP | 2023|
-| 04 | [The Emergence of Essential Sparsity in Large Pre-trained Models: The Weights that Matter](https://arxiv.org/abs/2306.03805) | arXiv |  `W`&N:M | - | [Pytorch(Author)](https://github.com/VITA-Group/essential_sparsity?tab=readme-ov-file) | NLP | 2023|
+###### Dynamic network structure-based 2024
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+|01|[Boosting continual learning of vision-language models via mixture-of-experts adapters](https://openaccess.thecvf.com/content/CVPR2024/papers/Yu_Boosting_Continual_Learning_of_Vision-Language_Models_via_Mixture-of-Experts_Adapters_CVPR_2024_paper.pdf) | CVPR | DDAS| [GitHub](https://github.com/JiazuoYu/MoE-Adapters4CL) | 2024 |
+|02| [APLe: Token-Wise Adaptive for Multi-Modal Prompt Learning](https://arxiv.org/pdf/2401.06827) | arXiv  | APLe| -  | 2024 |
+|03| [Revisiting prompt pretraining of vision-language models](https://arxiv.org/pdf/2409.06166) | arXiv | RPP  | -  | 2024 |
 
-###### Pruning After Training BERTs 2022
-| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Structured Pruning Learns Compact and Accurate Models](https://arxiv.org/pdf/2204.00408.pdf) | ACL |  `LH` | CoFi | [PyTorch(Author)](https://github.com/princeton-nlp/CoFiPruning)  | Natural Language Understanding | 2022|
-| 02 | [From Dense to Sparse: Contrastive Pruning for Better Pre-trained Language Model Compression](https://arxiv.org/abs/2112.07198) | AAAI |  `WH` | CAP | [PyTorch(Author)](https://github.com/alibaba/AliceMind/tree/main/ContrastivePruning)  | NLP | 2022|
-| 03 | [PLATON: Pruning Large Transformer Models with Upper Confidence Bound of Weight Importance](https://arxiv.org/abs/2206.12562) | ICML |  `WC` | PLATON | [PyTorch(Author)](https://github.com/QingruZhang/PLATON)  | Natural Language Understanding&Question Answering&Image Classification | 2022|
-| 04 | [Parameter-Efficient Sparsity for Large Language Models Fine-Tuning](https://arxiv.org/pdf/2205.11005.pdf) | IJCAI | `W` | PST |  [PyTorch(Author)](https://github.com/yuchaoli/pst) | Language Modeling | 2022|
-| 05 | [The Optimal BERT Surgeon: Scalable and Accurate Second-Order Pruning for Large Language Models](https://arxiv.org/pdf/2203.07259.pdf) | EMNLP |  `W` | oBERT | [PyTorch(Author)](https://github.com/neuralmagic/sparseml/tree/main/research/optimal_BERT_surgeon_oBERT)| Natural Language Understanding | 2022|
-| 06 | [Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning](https://arxiv.org/abs/2208.11580) | NeurIPS | `W` | ExactOBS  | [PyTorch(Author)](https://github.com/IST-DASLab/OBC) | Image Classification&Object Detection&Question Answering | 2022 |
-
-###### Pruning After Training BERTs 2021
-| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Super Tickets in Pre-Trained Language Models: From Model Compression to Improving Generalization](https://arxiv.org/abs/2105.12002) | ACL | `W` | super tickets | [PyTorch(Author)](https://github.com/cliang1453/super-structured-lottery-tickets) | Language Understanding | 2021 | 
-| 02 | [Accelerated Sparse Neural Training: A Provable and Efficient Method to Find N:M Transposable Masks](https://arxiv.org/abs/2102.08124)  | NeurIPS | N:M | AdaPrune | [PyTorch(Author)](https://github.com/papers-submission/structured_transposable_masks) | Image Classification | 2021 |
-| 03 | [Prune Once for All: Sparse Pre-Trained Language Models](https://arxiv.org/abs/2111.05754)  | NeurIPS Workshop | `W` | OFA | [PyTorch(Author)](https://github.com/IntelLabs/Model-Compression-Research-Package) | NLP | 2021 | 
-| 04 | [BERT Busters: Outlier Dimensions that Disrupt Transformers](https://arxiv.org/abs/2105.06990) | ACL | `W` | - | - | NLP | 2021 | 
-| 05 | [PARP: Prune, Adjust and Re-Prune for Self-Supervised Speech Recognition](https://arxiv.org/abs/2106.05933) | NeurIPS | `W` | PARP | -| Speach Recognition | 2021 | 
-| 06 | [Parameter-Efficient Transfer Learning with Diff Pruning](https://arxiv.org/abs/2012.07463) | ACL | `M` | Diff Pruning | [PyTorch(Author)](https://github.com/dguo98/DiffPruning) | NLP | 2021 | 
-| 07 | [EarlyBERT: Efficient BERT training via early-bird lottery tickets](https://arxiv.org/abs/2101.00063) | ACL-IJCNLP| `H` | EarlyBERT | [PyTorch(Author)](https://github.com/VITA-Group/EarlyBERT) | NLP | 2021 |
-| 08 | [The Lottery Ticket Hypothesis for Pre-trained BERT Networks](https://arxiv.org/abs/2007.12223) | ICML | `W` | - | [PyTorch(Author)](https://github.com/VITA-Group/BERT-Tickets) | Language Modeling | 2021 |
-| 09 | [Structured Pruning of Large Language Models](https://arxiv.org/abs/1910.04732) | arXiv | `W` | FLOP | [PyTorch(Author)](https://github.com/asappresearch/flop) | NLP classification | 2021 | 
-| 10 | [Accelerating Sparse Deep Neural Networks](https://arxiv.org/abs/2104.08378) | arXiv | `W` | - | - | Image Classification&Image Segmentation and Detection&Language Modeling&Language Translation | 2021 |
-| 11 | [Differentiable Subset Pruning of Transformer Heads](https://arxiv.org/abs/2108.04657) | TACL | `H` | - | [PyTorch(Author)](https://github.com/rycolab/differentiable-subset-pruning) | NLP | 2021 |
-
-###### Pruning After Training BERTs 2020
-| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 03 | [Train Large, Then Compress: Rethinking Model Size for Efficient Training and Inference of Transformers](https://arxiv.org/abs/2002.11794)| ICML | `W`| - | - | NLP | 2020 |
-| 04 | [When BERT Plays the Lottery, All Tickets Are Winning](https://arxiv.org/abs/2005.00561) | EMNLP | `W` | - | [PyTorch(Author)](https://github.com/sai-prasanna/bert-experiments) | Language Modeling | 2020 |
-| 05 | [LadaBERT: Lightweight Adaptation of BERT through Hybrid Model Compression](https://arxiv.org/abs/2004.04124) | COLING | `W` | - | - | NLP(Sentiment Classification,Natural Language Inference,Pairwise Semantic Equivalence) | 2020 |
-| 06 | [Pruning Redundant Mappings in Transformer Models via Spectral-Normalized Identity Prior](https://arxiv.org/abs/2010.01791) | EMNLP| `H` | - | - | NLP | 2020 |
-| 07 | [Compressing BERT: Studying the Effects of Weight Pruning on Transfer Learning](https://arxiv.org/abs/2002.08307) | Rep4NLP| `W` | - | - | NLP | 2020 |
-
-###### Pruning After Training BERTs 2019
-| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Reweighted Proximal Pruning for Large-Scale Language Representation](http://arxiv.org/abs/1909.12486) | arXiv| `Other`  | -  | - | NLP | 2019 |
-| 02 | [Efficient Transformer-based Large Scale Language Representations using Hardware-friendly Block Structured Pruning](https://arxiv.org/abs/2009.08065) | EMNLP| `Other`| - | - | NLP | 2019 |
-
-### 1.2 Data-Augmentation-Based Approaches
-###### Pruning After Training LLMs 2024
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [LoRAPrune: Structured Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2305.18403) | ACL | `CH` | LoRAPrune | [PyTorch(Author)](https://github.com/aim-uofa/LoRAPrune)  |Language Modeling&Classification | 2024|
-| 02 | [A Simple and Effective Pruning Approach for Large Language Models](https://arxiv.org/abs/2306.11695) | ICLR | `W` |  Wanda | [PyTorch(Author)](https://github.com/locuslab/wanda)  | Language Modeling&Classification | 2024|
-| 03 | [SliceGPT: Compress Large Language Models by Deleting Rows and Columns](https://arxiv.org/abs/2401.15024) | ICLR | `CH` | SliceGPT | [PyTorch(Author)](https://github.com/microsoft/TransformerCompression)  | Language Modeling&Classification | 2024|
-| 04 | [Fluctuation-based Adaptive Structured Pruning for Large Language Models](https://arxiv.org/abs/2312.11983) | AAAI | `CH` | FLAP | [PyTorch(Author)](https://github.com/CASIA-IVA-Lab/FLAP)  | Language Modeling&Classification | 2024|
-| 05 | [BESA: Pruning Large Language Models with Blockwise Parameter-Efficient Sparsity Allocation](https://arxiv.org/abs/2402.16880) | arXiv | `B` | BESA | [PyTorch(Author)](https://github.com/OpenGVLab/LLMPrune-BESA) |Language Modeling&Classification | 2024|
-| 06 | [APT: Adaptive Pruning and Tuning Pretrained Language Models for Efficient Training and Inference](https://arxiv.org/abs/2401.12200) | ICML | `HC` | APT | [PyTorch(Author)](https://github.com/roim1998/apt) |Classification | 2024|
-| 07 | [Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning](https://arxiv.org/abs/2310.06694) | ICLR | `CH` | Sheared LLaMA | [PyTorch(Author)](https://github.com/princeton-nlp/LLM-Shearing)  | Language Modeling&Classification | 2024|
-| 08 | [Everybody Prune Now: Structured Pruning of LLMs with only Forward Passes](https://arxiv.org/abs/2402.05406) | arXiv | `CH` | Bonsai | [PyTorch(Author)](https://github.com/ldery/Bonsai)  | Language Modeling&Classification | 2024|
-| 09 | [LaCo: Large Language Model Pruning via Layer Collapse](https://arxiv.org/abs/2402.11187) | arXiv | `L` | LaCo | - | Language Modeling&Classification | 2024|
-| 10 | [ShortGPT: Layers in Large Language Models are More Redundant Than You Expect](https://arxiv.org/abs/2403.03853) | arXiv | `L` | ShortGPT | - | Language Modeling&Classification | 2024|
-| 11 | [SparseLLM: Towards Global Pruning for Pre-trained Language Models](https://arxiv.org/abs/2402.17946) | arXiv | `B` | SparseLLM | [PyTorch(Author)](https://github.com/baithebest/sparsellm) | Language Modeling&Classification | 2024|
-| 12 | [SLEB: Streamlining LLMs through Redundancy Verification and Elimination of Transformer Blocks](https://arxiv.org/abs/2402.09025) | arXiv | `N` | SLEB | [PyTorch(Author)](https://github.com/jiwonsong-dev/sleb) | Language Modeling&Classification | 2024|
-| 13 | [Streamlining Redundant Layers to Compress Large Language Models](https://arxiv.org/abs/2403.19135) | arXiv | `L` | LLMStreamline | - | Language Modeling&Classification | 2024|
-| 14 | [Why Lift so Heavy? Slimming Large Language Models by Cutting Off the Layers](https://arxiv.org/pdf/2402.11700) | arXiv | `L` | - | - |Classification | 2024|
-| 15 | [Shortened LLaMA: Depth Pruning for Large Language Models with Comparison of Retraining Methods](https://arxiv.org/abs/2402.02834) |ICLRW | `HC` | - | [PyTorch(Author)](https://github.com/nota-netspresso/shortened-llm) |Classification | 2024|
-| 16 | [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity](https://arxiv.org/abs/2309.10285) | VLDB | `W` | Flash-LLM | [PyTorch(Author)](https://github.com/alibabaresearch/flash-llm) | Recognizing Textual Entailment | 2024|
-| 17 | [The LLM Surgeon](https://arxiv.org/abs/2312.17244) | arXiv | `WC` | LLM Surgeon | [PyTorch(Author)](https://github.com/Qualcomm-AI-research/llm-surgeon) | Language Modeling | 2024|
-| 18 | [Outlier Weighed Layerwise Sparsity (OWL): A Missing Secret Sauce for Pruning LLMs to High Sparsity](https://arxiv.org/abs/2310.05175) | ICML | `W` | OWL | [PyTorch(Author)](https://github.com/luuyin/owl) | Language Modeling&Classification | 2024|
-| 19 | [The Unreasonable Ineffectiveness of the Deeper Layers](https://arxiv.org/abs/2403.17887) | arXiv | `B` | - | - | Classification | 2024|
-| 20 | [Enhancing One-Shot Pruned Generative Pre-training Language Models through Sparse-Dense-Sparse Mechanism](https://openreview.net/forum?id=TjXjkxhSdE&referrer=%5Bthe%20profile%20of%20Dong%20Li%5D(%2Fprofile%3Fid%3D~Dong_Li13)) | OpenReview | `W` | SDS | - | Classification | 2024|
-| 21 | [KS-Lottery: Finding Certified Lottery Tickets for Multilingual Language Models](https://arxiv.org/abs/2402.02801) | arXiv | `W` | - | - | Language Translation | 2024|
+###### Dynamic network structure-based 2023
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01 |  [On the Soft-Subnetwork for Few-Shot Class Incremental Learning](https://arxiv.org/pdf/2209.07529) | arXiv | SoftNet | [GitHub](https://github.com/ihaeyong/SoftNet-FSCIL) | 2023 |
+| 02  |[Continual Learning via Winning Subnetworks That Arise Through Stochastic Local Competition](https://openreview.net/pdf?id=fUwfjPzI8g) | ICLR | TWTA-CIL      | -  | 2023 |
+| 03  | [Domain incremental lifelong learning in an open world](https://arxiv.org/pdf/2305.06555) | arXiv | Diana | [GitHub](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/diana) | 2023 |
+| 04  |[Prompts can play lottery tickets well: Achieving lifelong information extraction via lottery prompt tuning](https://aclanthology.org/2023.acl-long.16.pdf) | ACL | LPT| [GitHub](https://github.com/jokieleung/Lottery_Prompt)  | 2023 |
+| 05  | [Orthogonal subspace learning for language model continual learning](https://arxiv.org/pdf/2310.14152) | arXiv | O-LoRA | [GitHub](https://github.com/cmnfriend/O-LoRA)| 2023 |
+| 06  |[Continual diffusion: Continual customization of text-to-image diffusion with c-lora](https://arxiv.org/pdf/2304.06027) | arXiv | C-LoRA| [GitHub](https://jamessealesmith.github.io/continual-diffusion/)  | 2023 |
+| 07  | [Coda-prompt: Continual decomposed attention-based prompting for rehearsal-free continual learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Smith_CODA-Prompt_COntinual_Decomposed_Attention-Based_Prompting_for_Rehearsal-Free_Continual_Learning_CVPR_2023_paper.pdf) | CVPR  | CODA-Prompt| [GitHub](https://github.com/GT-RIPL/CODA-Prompt)   | 2023 |
 
 
-#### 1.2.1 Data Augmentation
-###### Pruning After Training LLMs 2023
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [SparseGPT: Massive Language Models Can be Accurately Pruned in One-Shot](https://arxiv.org/pdf/2301.00774.pdf) | NeurIPS |  `WP` | - | [PyTorch(Author)](https://github.com/IST-DASLab/sparsegpt)  | Language Modeling&Classification | 2023|
-| 02 | [LLM-Pruner: On the Structural Pruning of Large Language Models](https://arxiv.org/abs/2305.11627) | arXiv | `CHP` | LLM-Pruner |  [PyTorch(Author)](https://github.com/horseee/LLM-Pruner) | Language Modeling&Language Generation&Classification | 2023|
-| 03 | [LoRAShear: Efficient Large Language Model Structured Pruning and Knowledge Recovery](https://arxiv.org/abs/2310.18356) | arXiv | `CH` | LoRAShear | - | Language Modeling&Language Generation&Classification | 2023|
-| 04 | [Compresso: Structured Pruning with Collaborative Prompting Learns Compact Large Language Models](https://arxiv.org/abs/2310.05015) | arXiv | `CH` | Compresso | [PyTorch(Author)](https://github.com/microsoft/Moonlit/tree/main/Compresso) | Classification | 2023|
-| 05 | [Mini-GPTs: Efficient Large Language Models through Contextual Pruning](https://arxiv.org/abs/2312.12682) | arXiv | `WC` | - | - |Language Modeling& Classification | 2023|
-| 06 | [The Emergence of Essential Sparsity in Large Pre-trained Models: The Weights that Matter](https://arxiv.org/abs/2306.03805) | arXiv |  `W`&N:M | - | [Pytorch(Author)](https://github.com/VITA-Group/essential_sparsity?tab=readme-ov-file) | NLP | 2023|
+###### Dynamic network structure-based 2022 and earlier
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | ardywibowo2022varigrow| [Varigrow: Variational architecture growing for task-agnostic continual learning based on bayesian novelty](https://proceedings.mlr.press/v162/ardywibowo22a/ardywibowo22a.pdf) | ICML  | VariGrow | -  | 2022 |
+| 02  | zhu2022continual   | [Continual prompt tuning for dialog state tracking](https://arxiv.org/pdf/2203.06654) | arXiv | DST | [GitHub](https://github.com/thu-coai/CPT4DST)  | 2022 |
+| 03  | wang2022dualprompt | [Dualprompt: Complementary prompting for rehearsal-free continual learning](https://link.springer.com/chapter/10.1007/978-3-031-19809-0_36) | ECCV | DualPrompt  | [GitHub](https://github.com/google-research/l2p)  | 2022 |
+| 04  | yan2021dynamically | [Der: Dynamically expandable representation for class incremental learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Yan_DER_Dynamically_Expandable_Representation_for_Class_Incremental_Learning_CVPR_2021_paper.pdf) | CVPR         | DER  | [GitHub](https://github.com/Rhyssiyan/DER-ClassIL.pytorch) | 2021 |
+| 05  | madotto2020continual| [Continual learning in task-oriented dialogue systems](https://arxiv.org/pdf/2012.15504) | arXiv | ToDs   | -  | 2020 |
 
 
-###### Pruning After Training Diffusion Models 2023
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Structural Pruning for Diffusion Models](https://arxiv.org/abs/2305.10924) |NeurIPS | `C` | Diff-Pruning | [PyTorch(Author)](https://github.com/VainF/Diff-Pruning) | Image Generation | 2023 |
+### 2.2 Parameter-Space-Based Approaches 
+#### 2.2.1 Feature Space
+###### Feature Space 2025
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+|01|[Contrastive augmented graph2graph memory interaction for few shot continual learning](https://ieeexplore.ieee.org/abstract/document/10841449/) | TCSVT | LGP | - | 2025 |
+
+###### Feature Space 2024
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01 | zhou2024expandable | [Expandable subspace ensemble for pre-trained model-based class-incremental learning](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhou_Expandable_Subspace_Ensemble_for_Pre-Trained_Model-Based_Class-Incremental_Learning_CVPR_2024_paper.pdf) | CVPR | EASE | [GitHub](https://github.com/sun-hailong/CVPR24-Ease) | 2024 |
+| 02 | zhang2024rethinking | [Rethinking misalignment in vision-language model adaptation from a causal perspective](https://proceedings.neurips.cc/paper_files/paper/2024/file/453a27b717972ef94a9a9113d236ad2f-Paper-Conference.pdf) | NeurIPS | CDC | [NeurIPS Code Policy](https://nips.cc/public/guides/CodeSubmissionPolicy) | 2024 |
+| 03 | zhang2024dept | [DePT: Decoupled prompt tuning](http://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_DePT_Decoupled_Prompt_Tuning_CVPR_2024_paper.pdf) | CVPR | DePT | [GitHub](https://github.com/Koorye/DePT) | 2024 |
+| 04 | zhou2024delve | [Delve into base-novel confusion: Redundancy exploration for few-shot class-incremental learning](https://arxiv.org/pdf/2405.04918) | arXiv | RDI | - | 2024 |
+| 05 | shi2024deep | [Deep Correlated Prompting for Visual Recognition with Missing Modalities](https://proceedings.neurips.cc/paper_files/paper/2024/file/7ca55c8276acf1f0aa996cd3622d1df4-Paper-Conference.pdf) | NeurIPS | DCP | [GitHub](https://github.com/hulianyuyy/Deep_Correlated_Prompting) | 2024 |
+| 06 | sun2024craft | [Craft: Cross-modal Aligned Features Improve Robustness of Prompt Tuning](https://arxiv.org/pdf/2407.15894) | arXiv | CRAFT | [GitHub](https://github.com/Jingchensun/Craft) | 2024 |
+| 07 | lin2024m2sd | [M2sd: Multiple mixing self-distillation for few-shot class-incremental learning](https://ojs.aaai.org/index.php/AAAI/article/view/28129) | AAAI | M2SD | - | 2024 |
 
 
-###### Pruning After Training VLMs 2024
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [ECoFLaP: Efficient Coarse-to-Fine Layer-Wise Pruning for Vision-Language Models](https://arxiv.org/abs/2310.02998) | ICLR | `L` | ECoFLaP | [Pytorch(Author)](https://ecoflap.github.io/) | VQA&Image Captioning&Image-text Retrieval&Image Classification | 2024 |
+###### Feature Space 2023
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01 | mcdonnell2023ranpac | [Ranpac: Random projections and pre-trained models for continual learning](https://proceedings.neurips.cc/paper_files/paper/2023/file/2793dc35e14003dd367684d93d236847-Paper-Conference.pdf) | NeurIPS | RanPAC | [GitHub](https://github.com/RanPAC/RanPAC) | 2023 |
+| 02 | gu2023big | [Big-model Driven Few-shot Continual Learning](https://arxiv.org/pdf/2309.00862) | arXiv | B-FSCL | - | 2023 |
 
-###### Pruning After Training VLMs 2023
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Large Multimodal Model Compression via Efficient Pruning and Distillation at AntGroup](https://arxiv.org/abs/2312.05795) | arXiv | `B` | - | - | Multimodal Advertisement Audition | 2023 |
-| 02 | [UPop: Unified and Progressive Pruning for Compressing Vision-Language Transformers](https://arxiv.org/abs/2301.13741) | ICML | `H` | UPop | [Pytorch(Author)](https://github.com/sdc17/UPop) | Image Classification&Image Caption&Image Retrieval&VQA | 2023 |
-| 03 | [Instant Soup: Cheap Pruning Ensembles in A Single Pass Can Draw Lottery Tickets from Large Models](https://arxiv.org/abs/2306.10460) | ICML | `W` | ISP | [Pytorch(Author)](https://github.com/VITA-Group/instant_soup) | Image Classification&NLP | 2023 |
+###### Feature Space 2022
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01 | qin2022continual | [Continual few-shot relation learning via embedding space regularization and data augmentation](https://arxiv.org/pdf/2203.02135) | arXiv | CFRL | [GitHub](https://github.com/qcwthu/Continual_Fewshot_Relation_Learning) | 2022 |
+| 02 | wang2022learning | [Learning to decompose visual features with latent textual prompts](https://arxiv.org/pdf/2210.04287) | arXiv | DeFo | - | 2022 |
+| 03 | hersche2022constrained | [Constrained few-shot class-incremental learning](https://openaccess.thecvf.com/content/CVPR2022/papers/Hersche_Constrained_Few-Shot_Class-Incremental_Learning_CVPR_2022_paper.pdf) | CVPR | C-FSCIL | [GitHub](https://github.com/IBM/constrained-FSCIL) | 2022 |
+| 04 | ahmad2022few | [Few-shot class incremental learning leveraging self-supervised features](https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/papers/Ahmad_Few-Shot_Class_Incremental_Learning_Leveraging_Self-Supervised_Features_CVPRW_2022_paper.pdf) | CVPR | FeSSSS | [GitHub](https://github.com/TouqeerAhmad/FeSSSS) | 2022 |
 
-###### Pruning After Training VLMs 2022
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Playing Lottery Tickets with Vision and Language](https://arxiv.org/abs/2104.11832) | AAAI | `W` | - | - | Vision-and-Language | 2022 |
-
-
-#### 1.2.2 Feature Augmentation
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest Can Be Pruned](https://arxiv.org/abs/1905.09418) | ACL| `W` | - | [PyTorch(Author)](https://github.com/lena-voita/the-story-of-heads)| NLP | 2019 |
-| 02 | [Playing the Lottery with Rewards and Multiple Languages: Lottery Tickets in RL and NLP](https://arxiv.org/abs/1906.02768) | ICLR | `W` | - | - | Classic Control&Atari Game | 2020 |
-| 03 | [Dynamic Sparsity Neural Networks for Automatic Speech Recognition](https://arxiv.org/abs/2005.10627) | ICASSP | `W` |- | -| Speach Recognition | 2021 |
-| 04 | [GAN Compression: Efficient Architectures for Interactive Conditional GANs](https://arxiv.org/pdf/2003.08936.pdf) | arXiv | `C` | - | - | Image-to-Image Translation | 2021 |
-| 05 | [Content-Aware GAN Compression](https://arxiv.org/abs/2104.02244) | CVPR | `F` | - | [PyTorch(Author)](https://github.com/lychenyoko/content-aware-gan-compression) | Image Generation, Image Projection, Image Editing | 
-| 06 | [A Unified Lottery Ticket Hypothesis for Graph Neural Networks](https://arxiv.org/abs/2102.06790) | ICML | `W` | - | [PyTorch(Author)](https://github.com/VITA-Group/Unified-LTH-GNN) | Node Classification&Link Prediction | 2021 |
-| 07 | [Winning Lottery Tickets in Deep Generative Models](https://arxiv.org/abs/2010.02350) | AAAI | `W` | - | - | Image generative | 2021 |
-| 08 | [GANs Can Play Lottery Tickets Too](https://arxiv.org/abs/2106.00134) | ICLR | `W` | - | [PyTorch(Author)](https://github.com/VITA-Group/GAN-LTH) | Image generative | 2021 |
-| 09 | [Layer-wise Pruning of Transformer Attention Heads for Efficient Language Modeling](https://arxiv.org/abs/2110.03252) | arXiv | `H` | - | [PyTorch(Author)](https://github.com/aiha-lab/Attention-Head-Pruning) | Lanugage Modeling | 2021 |
-| 10 | [Can We Find Strong Lottery Tickets in Generative Models?](https://arxiv.org/abs/2212.08311) | arXiv | `W` | - | - | Image generative | 2022 |
-| 11 | [Exploring Lottery Ticket Hypothesis in Spiking Neural Networks](https://arxiv.org/abs/2207.01382) | ECCV | `W` | ET | [PyTorch(Author)](https://github.com/intelligent-computing-lab-yale/exploring-lottery-ticket-hypothesis-in-snns) | Image Classification | 2022 |
-| 12 | [Structured Pruning for Efficient Generative Pre-trained Language Models](https://aclanthology.org/2023.findings-acl.692/) | ACL | `C` | CP3 | - | Language Modeling&Machine Translation&Abstractive Summarization | 2023 |
-| 13 | [Rethinking Graph Lottery Tickets: Graph Sparsity Matters](https://arxiv.org/abs/2305.02190) | ICLR | `W` | - | - | Node Classification | 2023 |
-| 14 | [CP3: Channel Pruning Plug-in for Point-based Networks](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_CP3_Channel_Pruning_Plug-In_for_Point-Based_Networks_CVPR_2023_paper.pdf) | CVPR | `C` | CP3 | - | 3D Image Classification and Object Detection | 2023 |
+###### Feature Space 2021 and earlier
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01 | zhu2021self | [Self-promoted prototype refinement for few-shot class-incremental learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Self-Promoted_Prototype_Refinement_for_Few-Shot_Class-Incremental_Learning_CVPR_2021_paper.pdf) | CVPR | SPPR | - | 2021 |
+| 02 | caccia2020online | [Online fast adaptation and knowledge accumulation (osaka): a new approach to continual learning](https://proceedings.neurips.cc/paper_files/paper/2020/file/c0a271bc0ecb776a094786474322cb82-Paper.pdf) | NeurIPS | OSAKA | [GitHub](https://github.com/ElementAI/osaka) | 2020 |
 
 
-###### Post Training 2024
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Fast and Controllable Post-training Sparsity: Learning Optimal Sparsity Allocation with Global Constraint in Minutes](https://arxiv.org/abs/2203.04570) | AAAI | `W` | FCPTS | - | Image Classification | 2024 |
+#### 2.2.2 Weight Space
+###### Weight Space 2025
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01 |[Complementary Subspace Low-Rank Adaptation of Vision-Language Models for Few-Shot Classification](https://arxiv.org/pdf/2501.15040) | arXiv | Comp-LoRA | - | 2025 |
+| 02 |[Efficient Few-Shot Continual Learning in Vision-Language Models](https://arxiv.org/pdf/2502.04098) | arXiv | LoRSU | - | 2025 |
+| 03 |[Continuous Knowledge-Preserving Decomposition for Few-Shot Continual Learning](https://arxiv.org/pdf/2501.05017) | arXiv | CKPD-FSCIL | [GitHub](https://github.com/xiaojieli0903/CKPD-FSCIL) | 2025 |
+| 04 |[Singular Value Fine-tuning for Few-Shot Class-Incremental Learning](https://arxiv.org/pdf/2503.10214) | arXiv | SVFCL | - | 2025 |
 
-###### Post Training 2023
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [SparseGPT: Massive Language Models Can be Accurately Pruned in One-Shot](https://arxiv.org/pdf/2301.00774.pdf) | NeurIPS |  `WP` | - | [PyTorch(Author)](https://github.com/IST-DASLab/sparsegpt)  | Language Modeling | 2023|
-| 02 | [Unified Data-Free Compression: Pruning and Quantization without Fine-Tuning](https://arxiv.org/abs/2308.07209) | ICCV |  `C` | UDFC | -  | Image Classification | 2023|
-| 03 | [OTOv3: Automatic Architecture-Agnostic Neural Network Training and Compression from Structured Pruning to Erasing Operators](https://arxiv.org/abs/2312.09411) | arXiv | `WFC`  | - | -  | Image Classification | 2023|
+###### Weight Space 2024 and earlier
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 02 |[LW2G: Learning Whether to Grow for Prompt-based Continual Learning](https://openreview.net/pdf?id=QZuZmfLLRG) | ICLR | LW2G | [GitHub](https://github.com/thu-ml/HiDe-Prompt) | 2024 |
+| 03 |[Continual Few-shot Relation Extraction via Adaptive Gradient Correction and Knowledge Decomposition](https://aclanthology.org/2024.findings-acl.702.pdf) | ACL | ROD_AOD | - | 2024 |
+| 01 |[Warping the space: Weight space rotation for class-incremental few-shot learning](https://openreview.net/pdf?id=kPLzOfPfA2l) | ICLR | WaRP | [GitHub](https://github.com/EdwinKim3069/WaRP-CIFSL) | 2023 |
+
+
+#### 2.2.3 Knowledge Distillation
+###### Knowledge Distillation 2025
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | [Fully Fine-Tuning Beats Parameter Efficient Fine-Tuning for CLIP in Data-Limited Scenarios](https://openreview.net/pdf?id=VbszSB4pK6) | ICLR | CLIP-CITE      | - | 2025 |
+
+###### Knowledge Distillation 2024
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  |[Improving Continual Few-shot Relation Extraction through Relational Knowledge Distillation and Prototype Augmentation](https://aclanthology.org/2024.lrec-main.767.pdf) | LREC-COLING  | RK2DA          | -                                                                 | 2024 |
+| 02  |[On Distilling the Displacement Knowledge for Few-Shot Class-Incremental Learning](https://arxiv.org/pdf/2412.11017) | arXiv| DKD  | - | 2024 |
+| 03  |[M2sd: Multiple mixing self-distillation for few-shot class-incremental learning](https://ojs.aaai.org/index.php/AAAI/article/view/28129) | AAAI         | M2SD | -  | 2024 |
+| 04  |[Revisiting prompt pretraining of vision-language models](https://arxiv.org/pdf/2409.06166) | arXiv | RPP   | -  | 2024 |
+| 05  |[Improving zero-shot generalization of learned prompts via unsupervised knowledge distillation](https://link.springer.com/chapter/10.1007/978-3-031-72907-2_27) |ECCV| KDPL| [GitHub](https://github.com/miccunifi/KDPL) | 2024 |
+| 06  |[Cascade prompt learning for vision-language model adaptation](https://arxiv.org/pdf/2409.17805) | ECCV  | CasPL  | [GitHub](https://github.com/megvii-research/CasPL) | 2024 |
+
+###### Knowledge Distillation 2023 and earlier
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  |[Serial contrastive knowledge distillation for continual few-shot relation extraction](https://arxiv.org/pdf/2305.06616) | arXiv  | SCKD  | [GitHub](https://github.com/nju-websoft/SCKD) | 2023 |
+| 02  | [Feature distribution distillation-based few shot class incremental learning](https://ieeexplore.ieee.org/abstract/document/9904282) | PRAI| - | -| 2022 |
+| 03  |[Knowledge Distillation: A Survey](https://arxiv.org/pdf/2006.05525)   | arXiv | Survey | - | 2021 |
+
+
+
+## 2. Optimization Based Approaches  
+### 2.1 Gradient-Based Approaches  
+#### 2.1.1 Function Regularization 
+###### Function Regularization 2024
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  |[HPT++: Hierarchically Prompting Vision-Language Models with Multi-Granularity Knowledge Generation and Improved Structure Modeling](https://arxiv.org/pdf/2408.14812) | arXiv | HPT++  | - | 2024 |
+| 02  | [RESTORE: Towards Feature Shift for Vision-Language Prompt Learning](https://arxiv.org/pdf/2403.06136) | arXiv | RESTORE | [GitHub](https://github.com/Yaphabates/RESTORE_) | 2024 |
+| 03  | [Conceptual Codebook Learning for Vision-Language Models](https://link.springer.com/chapter/10.1007/978-3-031-72980-5_14) | ECCV | CoCoLe| -  | 2024 |
+| 04  | wang2024understanding| [Understanding and Mitigating Miscalibration in Prompt Tuning for Vision-Language Models](https://arxiv.org/pdf/2410.02681) | arXiv | DOR| [GitHub](https://github.com/ml-stat-Sustech/Outlier-Calibration)  | 2024 |
+| 05  | chen2024conditional| [Conditional prototype rectification prompt learning](https://ieeexplore.ieee.org/abstract/document/11069290/) | TCSVT | CPR | [GitHub](https://github.com/chenhaoxing/CPR) | 2024 |
+| 06  | kuchibhotlasemantic| [Semantic Alignment for Prompt-Tuning in Vision Language Models](https://openreview.net/pdf?id=avDr56QjSI) | TMLR | SAP| - | 2024 |
+###### Function Regularization 2023
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | [Self-regulating prompts: Foundational model adaptation without forgetting](https://openaccess.thecvf.com/content/ICCV2023/papers/Khattak_Self-regulating_Prompts_Foundational_Model_Adaptation_without_Forgetting_ICCV_2023_paper.pdf) | ICCV | PromptSR  | [GitHub](https://github.com/muzairkhattak/PromptSRC)| 2023 |
+| 02  |[Towards Efficient Vision-Language Tuning: More Information Density, More Generalizability](https://arxiv.org/pdf/2312.10813) | arXiv| DIP| -| 2023 |
+
+
+#### 2.1.2 Weight Regularization 
+###### Weight Regularization 2024
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | [M³PL: Identifying and Exploiting View Bias of Prompt Learning](https://openreview.net/pdf?id=2rnTIBm19V) | Transact Mach Learn Res | M3PL | -  | 2024 |
+| 02  | [Fine-Tuning CLIP's Last Visual Projector: A Few-Shot Cornucopia](https://inria.hal.science/hal-04986168/document) | Inria | -  | - | 2024 |
+| 03  | [On Distilling the Displacement Knowledge for Few-Shot Class-Incremental Learning](https://arxiv.org/pdf/2412.11017) | arXiv | DKD   | -| 2024 |
+
+###### Weight Regularization 2023
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  |[Coda-prompt: Continual decomposed attention-based prompting for rehearsal-free continual learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Smith_CODA-Prompt_COntinual_Decomposed_Attention-Based_Prompting_for_Rehearsal-Free_Continual_Learning_CVPR_2023_paper.pdf) | CVPR  | CODA-Prompt    | [GitHub](https://github.com/GT-RIPL/CODA-Prompt) | 2023 |
+| 02  |[Few shot class incremental learning via efficient prototype replay and calibration](https://www.mdpi.com/1099-4300/25/5/776) | Entropy| EPRC  | -  | 2023 |
+| 03  |[Continual diffusion: Continual customization of text-to-image diffusion with c-lora](https://arxiv.org/pdf/2304.06027) | arXiv  | C-LoRA| [GitHub](https://jamessealesmith.github.io/continual-diffusion/)  | 2023 |
+
+#### 2.1.3 Gradient space  
+###### Gradient space  2024
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | [Generalizable Prompt Learning via Gradient Constrained Sharpness-aware Minimization](https://ieeexplore.ieee.org/abstract/document/10814656/) | TMM          | GCSCoOp | [GitHub](https://github.com/llcllc1997/GCSCoOp) | 2024 |
+| 02 | [LW2G: Learning Whether to Grow for Prompt-based Continual Learning](https://openreview.net/pdf?id=QZuZmfLLRG) | ICLR | LW2G | [GitHub](https://github.com/thu-ml/HiDe-Prompt)  | 2024 |
+| 03| [Continual Few-shot Relation Extraction via Adaptive Gradient Correction and Knowledge Decomposition](https://aclanthology.org/2024.findings-acl.702.pdf) | ACL | ROD&AOD | - | 2024 |
+| 04  | [Fine-Tuning CLIP's Last Visual Projector: A Few-Shot Cornucopia](https://inria.hal.science/hal-04986168/document) | Inria   | -  | -  | 2024 |
+
+###### Gradient space  2023
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  |[Prompt gradient projection for continual learning](https://openreview.net/pdf?id=EH2O3h7sBI) | ICLR | PGP | [GitHub](https://github.com/JingyangQiao/prompt-gradient-projection) | 2023 |
+| 02  |[Prompt-aligned gradient for prompt tuning](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhu_Prompt-aligned_Gradient_for_Prompt_Tuning_ICCV_2023_paper.pdf) | ICCV | ProGrad  | - | 2023 |
+| 03  |[Visual-language prompt tuning with knowledge-guided context optimization](https://openaccess.thecvf.com/content/CVPR2023/papers/Yao_Visual-Language_Prompt_Tuning_With_Knowledge-Guided_Context_Optimization_CVPR_2023_paper.pdf) | CVPR | KgCoOp  | -  | 2023 |
+
+###### Gradient space  2021
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | [Gradient projection memory for continual learning](https://arxiv.org/pdf/2103.09762) | arXiv| GPM | [GitHub](https://github.com/sahagobinda/GPM) | 2021 |
+| 02  | tang2021layerwise  | [Layerwise optimization by gradient decomposition for continual learning](http://openaccess.thecvf.com/content/CVPR2021/papers/Tang_Layerwise_Optimization_by_Gradient_Decomposition_for_Continual_Learning_CVPR_2021_paper.pdf) | CVPR | -  | -  | 2021 |
+
+#### 2.1.4 Loss Function
+###### Loss Function  2025
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  |[Fully Fine-Tuning Beats Parameter Efficient Fine-Tuning for CLIP in Data-Limited Scenarios](https://openreview.net/pdf?id=VbszSB4pK6) | ICLR | CLIP-CITE  | - | 2025 |
+| 02  |[Style-Pro: Style-Guided Prompt Learning for Generalizable Vision-Language Models](https://ieeexplore.ieee.org/abstract/document/10943992/) | WACV  | Style-Pro | - | 2025 |
+
+###### Loss Function  2024
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  |[Flatten long-range loss landscapes for cross-domain few-shot learning](https://openaccess.thecvf.com/content/CVPR2024/papers/Zou_Flatten_Long-Range_Loss_Landscapes_for_Cross-Domain_Few-Shot_Learning_CVPR_2024_paper.pdf) | CVPR  | FLoR | [GitHub](https://github.com/Zoilsen/FLoR) | 2024 |
+| 02  |[A bag of tricks for few-shot class-incremental learning](https://arxiv.org/pdf/2403.14392) | arXiv | -  | - | 2024 |
+| 03  |[Craft: Cross-modal Aligned Features Improve Robustness of Prompt Tuning](https://arxiv.org/pdf/2407.15894) | arXiv| CRAFT | [GitHub](https://github.com/Jingchensun/Craft) | 2024 |
+| 04  |[Pre-trained vision and language transformers are few-shot incremental learners](https://openaccess.thecvf.com/content/CVPR2024/papers/Park_Pre-trained_Vision_and_Language_Transformers_Are_Few-Shot_Incremental_Learners_CVPR_2024_paper.pdf) | CVPR | PriViLege| [GitHub](https://github.com/KHU-AGI/PriViLege) | 2024 |
+| 05  |[One-stage prompt-based continual learning](https://link.springer.com/chapter/10.1007/978-3-031-72624-8_10) | ECCV | PCL  | - | 2024 |
+| 06  | [Conceptual Codebook Learning for Vision-Language Models](https://link.springer.com/chapter/10.1007/978-3-031-72980-5_14) | ECCV  | CoCoLe | - | 2024 |
+
+###### Loss Function  2023
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 04  | [Few-shot class-incremental learning for medical time series classification](https://drive.google.com/file/d/1hsaJUvUPMAcMHuAoqL0wKUssG_o9rR71/view) | J-BHI | MAPIC | - | 2023 |
+| 05  | [Ica-proto: Iterative cross alignment prototypical network for incremental few-shot relation classification](https://aclanthology.org/2023.findings-eacl.171.pdf) | EACL | ICA-Proto| -  | 2023 |
+| 06  |[Consistent prototype learning for few-shot continual relation extraction](https://aclanthology.org/2023.acl-long.409.pdf) | ACL| ConPL | [GitHub](https://github.com/XiudiChen/ConPL)| 2023 |
+
+
+###### Loss Function  2021
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | [Memory-efficient incremental learning through feature adaptation](https://link.springer.com/chapter/10.1007/978-3-030-58517-4_41) | ECCV |Feature_Adaptation | -  | 2020 |
+| 02  |[Overcoming catastrophic forgetting in incremental few-shot learning by finding flat minima](https://proceedings.neurips.cc/paper_files/paper/2021/file/357cfba15668cc2e1e73111e09d54383-Paper.pdf) | NeurIPS  | F2M  | [GitHub](https://github.com/moukamisama/F2M) | 2021 |
+| 03  |[Der: Dynamically expandable representation for class incremental learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Yan_DER_Dynamically_Expandable_Representation_for_Class_Incremental_Learning_CVPR_2021_paper.pdf) | CVPR | DER | [GitHub](https://github.com/Rhyssiyan/DER-ClassIL.pytorch) | 2021 |
+
+### 2.2 Tuning-based Approaches 
+#### 2.2.1 Adapter-Based
+###### Adapter-Based 2024
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
 
 ###### Post Training 2022
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
