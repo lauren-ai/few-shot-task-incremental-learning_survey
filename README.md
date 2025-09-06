@@ -571,62 +571,88 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 
 ### 2.2 Tuning-based Approaches 
 #### 2.2.1 Adapter-Based
+###### Adapter-Based 2025
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  |[CMoA: Contrastive Mixture of Adapters for Generalized Few-Shot Continual Learning](https://ieeexplore.ieee.org/abstract/document/10891550/) | IEEE Transactions on Multimedia | CMoA | - | 2025 |
+| 02  |[Continuous Knowledge-Preserving Decomposition for Few-Shot Continual Learning](https://arxiv.org/pdf/2501.05017) | arXiv| CKPD-FSCIL| [GitHub](https://github.com/xiaojieli0903/CKPD-FSCIL)| 2025 |
+| 03  |[Complementary Subspace Low-Rank Adaptation of Vision-Language Models for Few-Shot Classification](https://arxiv.org/pdf/2501.15040) | arXiv| Comp-LoRA| -  | 2025 |
+| 04  |[Singular Value Fine-tuning for Few-Shot Class-Incremental Learning](https://arxiv.org/pdf/2503.10214) | arXiv | SVFCL | - | 2025 |
+
 ###### Adapter-Based 2024
 | No. | Title |Type | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  |[RESTORE: Towards Feature Shift for Vision-Language Prompt Learning](https://arxiv.org/pdf/2403.06136) | arXiv | RESTORE| [GitHub](https://github.com/Yaphabates/RESTORE_)  | 2024 |
+| 02  |[Conditional prototype rectification prompt learning](https://ieeexplore.ieee.org/abstract/document/11069290/) | TCSVT| CPR| [GitHub](https://github.com/chenhaoxing/CPR) | 2024 |
+| 03  |[Boosting continual learning of vision-language models via mixture-of-experts adapters](https://openaccess.thecvf.com/content/CVPR2024/papers/Yu_Boosting_Continual_Learning_of_Vision-Language_Models_via_Mixture-of-Experts_Adapters_CVPR_2024_paper.pdf) | CVPR | DDAS | [GitHub](https://github.com/JiazuoYu/MoE-Adapters4CL) | 2024 |
+| 04  |[Coin: A benchmark of continual instruction tuning for multimodel large language models](https://proceedings.neurips.cc/paper_files/paper/2024/file/6a45500d9eda640deed90d8a62742be5-Paper-Datasets_and_Benchmarks_Track.pdf) | NeurIPS | CoIN| [GitHub](https://github.com/zackschen/CoIN)  | 2024 |
 
-###### Post Training 2022
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [CP-ViT: Cascade Vision Transformer Pruning via Progressive Sparsity Prediction](https://arxiv.org/abs/2203.04570) | arXiv | `H` | CP-ViT  | - | Image Classification | 2022 |
-| 02 | [Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning](https://arxiv.org/abs/2208.11580) | NeurIPS | `W` | ExactOBS  | [PyTorch(Author)](https://github.com/IST-DASLab/OBC) | Image Classification&Object Detection&Question Answering | 2022 |
-| 03 | [A Fast Post-Training Pruning Framework for Transformers](https://arxiv.org/pdf/2210.04092.pdf) | NeurIPS |  `HF` | - | [PyTorch(Author)](https://github.com/WoosukKwon/retraining-free-pruning)  | Natural Language Understanding | 2022|
-
-###### Post Training 2021
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Enabling Retrain-free Deep Neural Network Pruning Using Surrogate Lagrangian Relaxation](https://arxiv.org/abs/2012.10079) | IJCAI | `W` | - | - | Image Classification & Object Detection | 2021 |
-| 02 | [Accelerated Sparse Neural Training: A Provable and Efficient Method to Find N:M Transposable Masks](https://arxiv.org/abs/2102.08124)  | NeurIPS | N:M | AdaPrune | [PyTorch(Author)](https://github.com/papers-submission/structured_transposable_masks) | Image Classification | 2021 | 
+###### Adapter-Based 2023 
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  |[Continual diffusion: Continual customization of text-to-image diffusion with c-lora](https://arxiv.org/pdf/2304.06027) | arXiv| C-LoRA| [GitHub](https://jamessealesmith.github.io/continual-diffusion/)  | 2023 |
+| 02  |[Towards Difficulty-Agnostic Efficient Transfer Learning for Vision-Language Models](https://arxiv.org/pdf/2311.15569) | arXiv| APEX  | - | 2023 |
 
 
-###### Post Training 2021
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Linear Mode Connectivity and the Lottery Ticket Hypothesis](https://arxiv.org/abs/1912.05671) | ICML | `W` | - | - | Image Classification | 2020 |
-| 02 | [When To Prune? A Policy Towards Early Structural Pruning](https://openaccess.thecvf.com/content/CVPR2022/html/Shen_When_To_Prune_A_Policy_Towards_Early_Structural_Pruning_CVPR_2022_paper.html) | CVPR | `F` | PaT | - | Image Classification | 2022 |
-| 03 | [Drawing Early-Bird Tickets: Towards More Efficient Training of Deep Networks](https://arxiv.org/abs/1909.11957) | ICLR | `W` | - | [PyTorch(Author)](https://github.com/GATECH-EIC/Early-Bird-Tickets) | Image Classification | 2020 |
-| 04 | [A Gradient Flow Framework For Analyzing Network Pruning](https://arxiv.org/abs/2009.11839) | ICLR | `F` | - | [PyTorch(Author)](https://github.com/ModelTC/FCPTS) | Image Classification | 2021 |
-
-###### Post Training 2021
-| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Channel Gating Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2017/file/a51fb975227d6640e4fe47854476d133-Paper.pdf) | NeurIPS | `F` | RNP | - | Image Classification | 2017 |
-| 02 | [Channel Gating Neural Networks](https://arxiv.org/abs/1805.12549) | NeurIPS | `C` | CGNet | [PyTorch(Author)](https://github.com/cornell-zhang/dnn-gating) | Image Classification | 2019 |
-| 03 | [Dynamic Channel Pruning: Feature Boosting and Suppression](https://arxiv.org/pdf/1810.05331.pdf) | ICLR | `C` | FBS | [PyTorch(Author)](https://github.com/YOUSIKI/PyTorch-FBS) | Image Classification | 2019 |
-| 04 | [Frequency-Domain Dynamic Pruning for Convolutional Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2018/file/a9a6653e48976138166de32772b1bf40-Paper.pdf) | NeurIPS | `F` | FDNP | - | Image Classification | 2019 |
-| 05 | [Fire Together Wire Together: A Dynamic Pruning Approach With Self-Supervised Mask Prediction](https://openaccess.thecvf.com/content/CVPR2022/html/Elkerdawy_Fire_Together_Wire_Together_A_Dynamic_Pruning_Approach_With_Self-Supervised_CVPR_2022_paper.html) | CVPR| `F` | - | - | Image Classification | 2019 |
-| 06 | [Dynamic Dual Gating Neural Networks](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_Dynamic_Dual_Gating_Neural_Networks_ICCV_2021_paper.pdf) | ICCV | `C` | DGNet | [PyTorch(Author)](https://github.com/lfr-0531/DGNet) | Image Classification | 2021 |
-| 07 | [Manifold Regularized Dynamic Network Pruning](https://arxiv.org/abs/2103.05861) | CVPR | `F` | ManiDP |  [PyTorch(Author)](https://github.com/huaweinoah/Pruning/tree/master/ManiDP) | Image Classification | 2021 |
-| 08 | [Contrastive Dual Gating: Learning Sparse Features With Contrastive Learning](https://openaccess.thecvf.com/content/CVPR2022/html/Meng_Contrastive_Dual_Gating_Learning_Sparse_Features_With_Contrastive_Learning_CVPR_2022_paper.html) | CVPR | `WF` | CDG | - | Image Classification | 2022 |
+###### Adapter-Based 2022 and earlier
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | [Lora: Low-rank adaptation of large language models](https://arxiv.org/pdf/2106.09685v1) | ICLR | LoRA| [GitHub](https://github.com/microsoft/LoRA)| 2022 |
+| 02  |[Towards a unified view of parameter-efficient transfer learning](https://arxiv.org/pdf/2110.04366) | arXiv | - | [GitHub](https://github.com/jxhe/unify-parameter-efficient-tuning) | 2021 |
 
 
-## 2. model Based Approaches
+#### 2.2.2 Prompt-Based
+###### Prompt-Based 2025
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | [Fully Fine-Tuning Beats Parameter Efficient Fine-Tuning for CLIP in Data-Limited Scenarios](https://openreview.net/pdf?id=VbszSB4pK6) | ICLR | CLIP-CITE| - | 2025 |
 
-### 2.1 Architecture-Based Approches
+###### Prompt-Based 2024
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  |[Prompt learning via meta-regularization](https://openaccess.thecvf.com/content/CVPR2024/papers/Park_Prompt_Learning_via_Meta-Regularization_CVPR_2024_paper.pdf) | CVPR| ProMetaR| [GitHub](https://github.com/mlvlab/ProMetaR)| 2024 |
+| 02  |[Modal-aware prompt tuning with deep adaptive feature enhancement](https://www.sciencedirect.com/science/article/abs/pii/S0045790624001988) | COMPUT ELECTR ENG | MAP-DAFE | - | 2024 |
+| 03 | [APLe: Token-Wise Adaptive for Multi-Modal Prompt Learning](https://arxiv.org/pdf/2401.06827) | arXiv| APLe| - | 2024 |
+| 04 | [Concept-guided prompt learning for generalization in vision-language models](https://ojs.aaai.org/index.php/AAAI/article/download/28568/29104) | AAAI | CPL| [GitHub](https://github.com/rambo-coder/CPL)| 2024 |
+| 05  |[Learning prompt with distribution-based feature replay for few-shot class-incremental learning](https://arxiv.org/pdf/2401.01598) | arXiv| LP-DiF| [GitHub](https://github.com/1170300714/LP-DiF)| 2024 |
+| 06  |[SEP: Self-Enhanced Prompt Tuning for Visual-Language Model](https://arxiv.org/pdf/2405.15549) | arXiv  | SEP | [GitHub](https://github.com/htyao89/SEP/) | 2024 |
+| 07  |[Craft: Cross-modal Aligned Features Improve Robustness of Prompt Tuning](https://arxiv.org/pdf/2407.15894) | arXiv| CRAFT | [GitHub](https://github.com/Jingchensun/Craft)| 2024 |
+| 08  | [Improving zero-shot generalization of learned prompts via unsupervised knowledge distillation](https://link.springer.com/chapter/10.1007/978-3-031-72907-2_27) | ECCV | KDPL | [GitHub](https://github.com/miccunifi/KDPL)| 2024 |
+| 09  |[Pre-trained vision and language transformers are few-shot incremental learners](https://openaccess.thecvf.com/content/CVPR2024/papers/Park_Pre-trained_Vision_and_Language_Transformers_Are_Few-Shot_Incremental_Learners_CVPR_2024_paper.pdf) | CVPR | PriViLege| [GitHub](https://github.com/KHU-AGI/PriViLege)| 2024 |
+| 10  |[Cascade prompt learning for vision-language model adaptation](https://arxiv.org/pdf/2409.17805) | ECCV | CasPL| [GitHub](https://github.com/megvii-research/CasPL)| 2024 |
+| 11 | [Rethinking misalignment in vision-language model adaptation from a causal perspective](https://proceedings.neurips.cc/paper_files/paper/2024/file/453a27b717972ef94a9a9113d236ad2f-Paper-Conference.pdf) | NeurIPS| CDC | [GitHub](https://nips.cc/public/guides/CodeSubmissionPolicy)  2024|
+| 12 |[TCP: Textual-based Class-aware Prompt tuning for Visual-Language Model](https://openaccess.thecvf.com/content/CVPR2024/papers/Yao_TCPTextual-based_Class-aware_Prompt_tuning_for_Visual-Language_Model_CVPR_2024_paper.pdf) | CVPR | TCP| [GitHub](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning) | 2024 |
 
-#### 2.1.1 Attention-Based
-| No. | Title   | Venue | Algorithm Name | Code | APP | Year |
-|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|:----:|
-| 01 | [Continual Learning via Neural Pruning](https://arxiv.org/abs/1903.04476)| arXiv | CLNP | - | Image Classification | 2019 |
-| 02 | [Learning Bayesian Sparse Networks With Full Experience Replay for Continual Learning](https://openaccess.thecvf.com/content/CVPR2022/html/Yan_Learning_Bayesian_Sparse_Networks_With_Full_Experience_Replay_for_Continual_CVPR_2022_paper.html)| CVPR | SNCL | - | Image Classification | 2022 |  
-| 03 | [Continual Prune-and-Select: Class-Incremental Learning with SPecialized Subnetworks](https://arxiv.org/pdf/2208.04952.pdf)| Applied Intelligence | - | [PyTorch(Author)]( https://github.com/adekhovich/continual_prune_and_select) | Image Classification | 2023 |
-| 04 | [Continual Domain Adaptation through Pruning-aided Domain-specific Weight Modulation](https://arxiv.org/abs/2304.07560)| CVPRW | PaCDA | [PyTorch(Author)]( https://github.com/prasannab29/pacda) | Image Classification | 2023 |
+###### Prompt-Based 2023
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | [Visual instruction tuning](https://proceedings.neurips.cc/paper_files/paper/2023/file/6dcf277ea32ce3288914faf369fe6de0-Paper-Conference.pdf) | NeurIPS          | LLaVA | [GitHub](https://llava-vl.github.io/) | 2023 |
+| 02  | [Coda-prompt: Continual decomposed attention-based prompting for rehearsal-free continual learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Smith_CODA-Prompt_COntinual_Decomposed_Attention-Based_Prompting_for_Rehearsal-Free_Continual_Learning_CVPR_2023_paper.pdf) | CVPR | CODA-Prompt| [GitHub](https://github.com/GT-RIPL/CODA-Prompt) | 2023 |
+| 03  |[MaPLe: Multi-modal prompt learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Khattak_MaPLe_Multi-Modal_Prompt_Learning_CVPR_2023_paper.pdf) | CVPR| MaPLe| [GitHub](https://github.com/muzairkhattak/multimodal-prompt-learning) | 2023 |
+| 04  |[Self-regulating prompts: Foundational model adaptation without forgetting](https://openaccess.thecvf.com/content/ICCV2023/papers/Khattak_Self-regulating_Prompts_Foundational_Model_Adaptation_without_Forgetting_ICCV_2023_paper.pdf) | ICCV | PromptSR| [GitHub](https://github.com/muzairkhattak/PromptSRC) | 2023 |
+| 05  | [Consistency-guided prompt learning for vision-language models](https://arxiv.org/pdf/2306.01195) | arXiv   | CoPrompt | [GitHub](https://github.com/ShuvenduRoy/CoPrompt) | 2023 |
+| 06  |[Multimodal parameter-efficient few-shot class incremental learning](https://openaccess.thecvf.com/content/ICCV2023W/VCL/papers/DAlessandro_Multimodal_Parameter-Efficient_Few-Shot_Class_Incremental_Learning_ICCVW_2023_paper.pdf) | ICCV | CPE-CLIP | - | 2023 |
 
-#### 2.1.2 Dynamic network structure-based
-| No. | Title   | Venue | Algorithm Name | Code | APP | Year |
-|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|:----:|
-| 01 | [Studying the impact of magnitude pruning on contrastive learning methods](https://arxiv.org/pdf/2207.00200.pdf) | ICML | - | [PyTorch(Author)](https://github.com/FraCorti/Studying-the-impact-of-magnitude-pruning-on-contrastive-learning-methods) | Image Classification | 2020 |
-| 02 | [Training Debiased Subnetworks with Contrastive Weight Pruning](https://openaccess.thecvf.com/content/CVPR2023/papers/Park_Training_Debiased_Subnetworks_With_Contrastive_Weight_Pruning_CVPR_2023_paper.pdf) | CVPR | DCWP | - | Image Classification | 2023 |
+###### Prompt-Based 2022
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  | [Learning to prompt for continual learning](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Learning_To_Prompt_for_Continual_Learning_CVPR_2022_paper.pdf) | CVPR | L2P| [GitHub](https://github.com/google-research/l2p) | 2022 |
+| 02  |[Dualprompt: Complementary prompting for rehearsal-free continual learning](https://link.springer.com/chapter/10.1007/978-3-031-19809-0_36) | ECCV| DualPrompt| [GitHub](https://github.com/google-research/l2p)| 2022 |
+| 03| [Learning to prompt for vision-language models](https://arxiv.org/pdf/2109.01134) | IJCV| CoOp | [GitHub](https://github.com/KaiyangZhou/CoOp) | 2022 |
+| 04  | [Visual prompt tuning](https://arxiv.org/pdf/2203.12119) | arXiv| VPT  | [GitHub](https://github.com/kmnp/vpt)  | 2022 |
+
+###### Prompt-Based 2021
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| 01  |[Finetuned language models are zero-shot learners](https://arxiv.org/pdf/2109.01652) | arXiv | FLAN  | [GitHub](https://github.com/google-research/flan) | 2021 |
+| 02  |[The power of scale for parameter-efficient prompt tuning](https://arxiv.org/pdf/2104.08691) | arXiv | - | [GitHub](https://github.com/google-research/text-to-text-transfer-transformer/blob/master/t5/data/preprocessors.py#L264) | 2021 |
+| 03  |[Bloom: A 176b-parameter open-access multilingual language model](https://arxiv.org/pdf/2211.05100) | arXiv | BLOOM| -| 2021 |
+
+#### 2.2.3 Instruct Tuning
+###### Instruct Tuning 2025
+| No. | Title |Type | Algorithm Name | Code | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+
 
 ###### Post Training 2021
 | No. | Title   | Venue | Algorithm Name | Code | APP | Year |
@@ -636,7 +662,6 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 
 
 ## 3. Optimization Based Approaches
-
 ### 3.1 Gradient-Based Approaches
 #### 3.1.1 Function Regularization
 | No. | Title   | Venue | Code | APP | Year |
