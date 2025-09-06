@@ -14,78 +14,112 @@
           - [Brain-inspired Replay 2021](#brain-inspired-replay-2021)
           - [Brain-inspired Replay 2020](#brain-inspired-replay-2020)
       - [1.1.2 Feature Replay](#112-feature-replay)
-          - [Pruning During Training CNNs 2024](#pruning-during-training-cnns-2024)
-          - [Pruning During Training CNNs 2023](#pruning-during-training-cnns-2023)
-          - [Pruning During Training CNNs 2022](#pruning-during-training-cnns-2022)
-          - [Pruning During Training CNNs 2021](#pruning-during-training-cnns-2021)
-          - [Pruning During Training CNNs 2020](#pruning-during-training-cnns-2020)
-          - [Pruning During Training CNNs 2019](#pruning-during-training-cnns-2019)
-          - [Pruning During Training CNNs 2018 and earlier](#pruning-during-training-cnns-2018-and-earlier)
+          - [Feature Replay 2024](#feature-replay-2024)
+          - [Feature Replay 2023](#feature-replay-2023)
+          - [Feature Replay 2022](#feature-replay-2022)
+          - [Feature Replay 2021](#feature-replay-2021)
       - [1.1.3 Generative Replay](#113-generative-replay)
-          - [Pruning Other Models](#pruning-other-models)
-          - [Pruning After Training CNNs 2024](#pruning-after-training-cnns-2024)
-          - [Pruning After Training CNNs 2023](#pruning-after-training-cnns-2023)
-          - [Pruning After Training CNNs 2022](#pruning-after-training-cnns-2022)
-          - [Pruning After Training CNNs 2021](#pruning-after-training-cnns-2021)
-          - [Pruning After Training CNNs 2020](#pruning-after-training-cnns-2020)
-          - [Pruning After Training CNNs 2019](#pruning-after-training-cnns-2019)
-          - [Pruning After Training CNNs 2018](#pruning-after-training-cnns-2018)
-          - [Pruning After Training CNNs 2017 and earlier](#pruning-after-training-cnns-2017-and-earlier)
-      - [1.1.4 Pseudo-scenarios Replay](#114-pseudo-scenarios-replay)
-          - [Pruning After Training ViTs 2024](#pruning-after-training-vits-2024)
-          - [Pruning After Training ViTs 2023](#pruning-after-training-vits-2023)
-          - [Pruning After Training ViTs 2022](#pruning-after-training-vits-2022)
+          - [Generative Replay 2025](#generative-replay-2025)
+          - [Generative Replay 2024](#generative-replay-2024)
+          - [Generative Replay 2023](#generative-replay-2023)
+          - [Generative Replay 2022](#generative-replay-2022)
+          - [Generative Replay 2021](#generative-replay-2021)
+      - [1.1.4 Pseudo-scenarios Replay](#114-pseudo-scenarios-reply)
+          - [Pseudo-scenarios Replay 2025](#pseudo-scenarios-reply-2025)
+          - [Pseudo-scenarios Replay 2024](#pseudo-scenarios-reply-2024)
+          - [Pseudo-scenarios Replay 2023](#pseudo-scenarios-reply-2023)
+          - [Pseudo-scenarios Replay 2022](#pseudo-scenarios-reply-2022)
+          - [Pseudo-scenarios Replay 2021](#pseudo-scenarios-reply-2022)
+          - [Pseudo-scenarios Replay 2021 and earlier](#pseudo-scenarios-reply-2021-and-earlier)
       - [1.1.5 Raw-data Replay](#115-raw-data-replay)
-          - [Pruning After Training BERTs 2023](#pruning-after-training-berts-2023)
-          - [Pruning After Training BERTs 2022](#pruning-after-training-berts-2022)
-          - [Pruning After Training BERTs 2021](#pruning-after-training-berts-2021)
-          - [Pruning After Training BERTs 2020](#pruning-after-training-berts-2020)
-          - [Pruning After Training BERTs 2019](#pruning-after-training-berts-2019)
+          - [Raw-data Replay 2025](#raw-data-replay-2025)
+          - [Raw-data Replay 2024](#raw-data-replay-2024)
+          - [Raw-data Replay 2023](#raw-data-replay-2023)
+          - [Raw-data Replay 2022](#raw-data-replay-2022)
+          - [Raw-data Replay 2021](#raw-data-replay-2021)
     - [1.2 Data-Augmentation-Based Approaches](#12-data-augmentation-based-approaches)
-          - [Pruning After Training LLMs 2024](#pruning-after-training-llms-2024)
       - [1.2.1 Data Augmentation](#121-data-augmentation)
-          - [Pruning After Training LLMs 2023](#pruning-after-training-llms-2023)
-          - [Pruning After Training Diffusion Models 2023](#pruning-after-training-diffusion-models-2023)
-          - [Pruning After Training VLMs 2024](#pruning-after-training-vlms-2024)
-          - [Pruning After Training VLMs 2023](#pruning-after-training-vlms-2023)
-          - [Pruning After Training VLMs 2022](#pruning-after-training-vlms-2022)
+          - [Data Augmentation 2024](#data-augmentation-2024)
+          - [Data Augmentation 2023](#data-augmentation-2023)
+          - [Data Augmentation 2022 and earlier](#data-augmentation-2022-and-earlier)
       - [1.2.2 Feature Augmentation](#122-feature-augmentation)
-          - [Post Training 2024](#post-training-2024)
-          - [Post Training 2023](#post-training-2023)
-          - [Post Training 2022](#post-training-2022)
-          - [Post Training 2021](#post-training-2021)
-          - [Post Training 2021](#post-training-2021-1)
-          - [Post Training 2021](#post-training-2021-2)
+          - [Feature Augmentation 2025](#feature-augmentation-2025)
+          - [Feature Augmentation 2024](#feature-augmentation-2024)
+          - [Feature Augmentation 2023](#feature-augmentation-2023)
+          - [Feature Augmentation 2022 and earlier](#feature-augmentation-2022-and-earlier)
   - [2. model Based Approaches](#2-model-based-approaches)
-    - [2.1 Architecture-Based Approches](#21-architecture-based-approches)
+    - [2.1 Architecture-Based Approches](#21-architecture-based-approaches)
       - [2.1.1 Attention-Based](#211-attention-based)
+        - [Attention-Based 2024](#attention-based-2024)
+        - [Attention-Based 2023 and earlier](#attention-based-2023-and-earlier)
       - [2.1.2 Dynamic network structure-based](#212-dynamic-network-structure-based)
-          - [Post Training 2021](#post-training-2021-3)
+          - [Dynamic network structure-based 2025](#dynamic-network-structure-based-2025)
+          - [Dynamic network structure-based 2024](#dynamic-network-structure-based-2024)
+          - [Dynamic network structure-based 2023](#dynamic-network-structure-based-2023)
+          - [Dynamic network structure-based 2022 and earlier](#dynamic-network-structure-based-2022-and-earlier)
+    - [2.2 Parameter-Based Approaches](#22-parameter-space-based-approaches)
+        - [2.2.1 Feature Space](#221-feature-space)
+           - [Feature Space 2025](#feature-space-2025)
+           - [Feature Space 2024](#feature-space-2024)
+           - [Feature Space 2023](#feature-space-2023)
+           - [Feature Space 2022](#feature-space-2022)
+           - [Feature Space 2021 and earlier](#feature-space-2021)
+        - [2.2.2 Weight Space](#222-weight-space)
+           - [Weight Space 2025](#weight-space-2025)
+           - [Weight Space 2024 and earlier](#weight-space-2024-and-earlier)
+        - [2.2.3 Knowledge Distillation](#223-knowledge-distillation)
+           - [Knowledge Distillation 2025](#knowledge-distillation-2025)
+           - [Knowledge Distillation 2024](#knowledge-distillation-2024)
+           - [Knowledge Distillation 2023 and earlier](#knowledge-distillation-2023-and-earlier)
   - [3. Optimization Based Approaches](#3-optimization-based-approaches)
     - [3.1 Gradient-Based Approaches](#31-gradient-based-approaches)
       - [3.1.1 Function Regularization](#311-function-regularization)
+           - [Function Regularization 2024](#function-regularization-2024)
+           - [Function Regularization 2023](#function-regularization-2023)
       - [3.1.2 Weight Regularization](#312-weight-regularization)
+           - [Weight Regularization 2024](#weight-regularization-2024)
+           - [Weight Regularization 2023](#weight-regularization-2023)
       - [3.1.3 Gradient Space](#313-gradient-space)
+           - [Gradient Space 2024](#gradient-space-2024)
+           - [Gradient Space 2023](#gradient-space-2023)
+           - [Gradient Space 2021](#gradient-space-2021)
       - [3.1.4 Loss Function](#314-loss-function)
+           - [Loss Function 2025](#loss-function-2025)
+           - [Loss Function 2024](#loss-function-2024)
+           - [Loss Function 2023](#loss-function-2023)
+           - [Loss Function 2021](#loss-function-2021)
     - [3.2 Tuning-Based Approaches](#32-tuning-based-approaches)
       - [3.2.1 Adapter-Based](#321-adapter-based)
-      - [3.2.2 Instruct Tuning](#322-instruct-tuning)
-      - [3.2.3 Prompt-Based](#323-prompt-based)
-      - [3.2.4 Prefix-Tuning](#324-prefix-tuning)
-  - [4. Survey of Pruning](#4-survey-of-pruning)
-    - [Survey of Pruning 2024](#survey-of-pruning-2024)
-    - [Survey of Pruning 2023](#survey-of-pruning-2023)
-    - [Survey of Pruning 2022](#survey-of-pruning-2022)
-    - [Survey of Pruning 2021](#survey-of-pruning-2021)
-    - [Survey of Pruning 2020](#survey-of-pruning-2020)
-    - [Survey of Pruning 2019 and earlier](#survey-of-pruning-2019-and-earlier)
+           - [Adapter-Based 2025](#adapter-based-2025)
+           - [Adapter-Based 2024](#adapter-based-2024)
+           - [Adapter-Based 2023](#adapter-based-2023)
+           - [Adapter-Based 2022 and earlier](#adapter-based-2022-and-earlier)
+      - [3.2.2 Prompt-Based](#322-prompt-based)
+           - [Prompt-Based 2025](#prompt-based-2025)
+           - [Prompt-Based 2024](#prompt-based-2024)
+           - [Prompt-Based 2023](#prompt-based-2023)
+           - [Prompt-Based 2022](#prompt-based-2022)
+           - [Prompt-Based 2021](#prompt-based-2021)
+      - [3.2.3 Instruct Tuning](#323-instruct-tuning)
+           - [Instruct Tuning 2024](#instruct-tuning-2024)
+           - [Instruct Tuning 2023](#instruct-tuning-2023)
+           - [Instruct Tuning 2022 and earlier](#instruct-tuning-2022-and-earlier)
+      - [3.2.4 Prefix Tuning](#324-prefix-tuning)
+           - [Prefix Tuning 2024](#prefix-tuning-2024)
+           - [Prefix Tuning 2023 and earlier](#prefix-tuning-2023-and-earlier)
+  - [4. Survey of Incremental learning](#4-survey-of-incremental-learning)
+    - [Survey of Incremental learning 2025](#survey-of-incremental-learning-2025)
+    - [Survey of Incremental learning 2024](#survey-of-incremental-learning-2024)
+    - [Survey of Incremental learning 2023](#survey-of-incremental-learning-2023)
+    - [Survey of Incremental learning 2022](#survey-of-incremental-learning-2022)
+    - [Survey of Incremental learning 2020](#survey-of-incremental-learning-2020)
   - [5. Other Works](#5-other-works)
     - [Papers](#papers)
 
 ## 0. Overview
 The repo includes the ongoing updates of representative few-shot task incremental learning papers and open-source codes.  
 
-**Taxonomy**: In our survey, we provide a comprehensive review of the state-of-the-art in deep neural network pruning, which we categorize along five orthogonal axes: Universal/Specific Speedup, When to Prune, Pruning Criteria, Learn to Prune, and Fusion of Pruning and Other Techniques. 
+**Taxonomy**: In our survey, we provide a comprehensive review of the state-of-the-art in few-shot task incremental learning, which we categorize along three orthogonal axes: Data-Based Approaches, Model-Based Approaches, and Optimization-Based Approaches. 
 
 <p align="center">
   <img src=taxonomy.png width="500">
@@ -392,11 +426,11 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 ###### Dynamic network structure-based 2022 and earlier
 | No. | Title |Type | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01  | ardywibowo2022varigrow| [Varigrow: Variational architecture growing for task-agnostic continual learning based on bayesian novelty](https://proceedings.mlr.press/v162/ardywibowo22a/ardywibowo22a.pdf) | ICML  | VariGrow | -  | 2022 |
-| 02  | zhu2022continual   | [Continual prompt tuning for dialog state tracking](https://arxiv.org/pdf/2203.06654) | arXiv | DST | [GitHub](https://github.com/thu-coai/CPT4DST)  | 2022 |
-| 03  | wang2022dualprompt | [Dualprompt: Complementary prompting for rehearsal-free continual learning](https://link.springer.com/chapter/10.1007/978-3-031-19809-0_36) | ECCV | DualPrompt  | [GitHub](https://github.com/google-research/l2p)  | 2022 |
-| 04  | yan2021dynamically | [Der: Dynamically expandable representation for class incremental learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Yan_DER_Dynamically_Expandable_Representation_for_Class_Incremental_Learning_CVPR_2021_paper.pdf) | CVPR         | DER  | [GitHub](https://github.com/Rhyssiyan/DER-ClassIL.pytorch) | 2021 |
-| 05  | madotto2020continual| [Continual learning in task-oriented dialogue systems](https://arxiv.org/pdf/2012.15504) | arXiv | ToDs   | -  | 2020 |
+| 01  | [Varigrow: Variational architecture growing for task-agnostic continual learning based on bayesian novelty](https://proceedings.mlr.press/v162/ardywibowo22a/ardywibowo22a.pdf) | ICML  | VariGrow | -  | 2022 |
+| 02  | [Continual prompt tuning for dialog state tracking](https://arxiv.org/pdf/2203.06654) | arXiv | DST | [GitHub](https://github.com/thu-coai/CPT4DST)  | 2022 |
+| 03  |[Dualprompt: Complementary prompting for rehearsal-free continual learning](https://link.springer.com/chapter/10.1007/978-3-031-19809-0_36) | ECCV | DualPrompt  | [GitHub](https://github.com/google-research/l2p)  | 2022 |
+| 04  |[Der: Dynamically expandable representation for class incremental learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Yan_DER_Dynamically_Expandable_Representation_for_Class_Incremental_Learning_CVPR_2021_paper.pdf) | CVPR         | DER  | [GitHub](https://github.com/Rhyssiyan/DER-ClassIL.pytorch) | 2021 |
+| 05  |[Continual learning in task-oriented dialogue systems](https://arxiv.org/pdf/2012.15504) | arXiv | ToDs   | -  | 2020 |
 
 
 ### 2.2 Parameter-Space-Based Approaches 
@@ -409,34 +443,34 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 ###### Feature Space 2024
 | No. | Title |Type | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | zhou2024expandable | [Expandable subspace ensemble for pre-trained model-based class-incremental learning](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhou_Expandable_Subspace_Ensemble_for_Pre-Trained_Model-Based_Class-Incremental_Learning_CVPR_2024_paper.pdf) | CVPR | EASE | [GitHub](https://github.com/sun-hailong/CVPR24-Ease) | 2024 |
-| 02 | zhang2024rethinking | [Rethinking misalignment in vision-language model adaptation from a causal perspective](https://proceedings.neurips.cc/paper_files/paper/2024/file/453a27b717972ef94a9a9113d236ad2f-Paper-Conference.pdf) | NeurIPS | CDC | [NeurIPS Code Policy](https://nips.cc/public/guides/CodeSubmissionPolicy) | 2024 |
-| 03 | zhang2024dept | [DePT: Decoupled prompt tuning](http://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_DePT_Decoupled_Prompt_Tuning_CVPR_2024_paper.pdf) | CVPR | DePT | [GitHub](https://github.com/Koorye/DePT) | 2024 |
-| 04 | zhou2024delve | [Delve into base-novel confusion: Redundancy exploration for few-shot class-incremental learning](https://arxiv.org/pdf/2405.04918) | arXiv | RDI | - | 2024 |
-| 05 | shi2024deep | [Deep Correlated Prompting for Visual Recognition with Missing Modalities](https://proceedings.neurips.cc/paper_files/paper/2024/file/7ca55c8276acf1f0aa996cd3622d1df4-Paper-Conference.pdf) | NeurIPS | DCP | [GitHub](https://github.com/hulianyuyy/Deep_Correlated_Prompting) | 2024 |
-| 06 | sun2024craft | [Craft: Cross-modal Aligned Features Improve Robustness of Prompt Tuning](https://arxiv.org/pdf/2407.15894) | arXiv | CRAFT | [GitHub](https://github.com/Jingchensun/Craft) | 2024 |
-| 07 | lin2024m2sd | [M2sd: Multiple mixing self-distillation for few-shot class-incremental learning](https://ojs.aaai.org/index.php/AAAI/article/view/28129) | AAAI | M2SD | - | 2024 |
+| 01 | [Expandable subspace ensemble for pre-trained model-based class-incremental learning](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhou_Expandable_Subspace_Ensemble_for_Pre-Trained_Model-Based_Class-Incremental_Learning_CVPR_2024_paper.pdf) | CVPR | EASE | [GitHub](https://github.com/sun-hailong/CVPR24-Ease) | 2024 |
+| 02 | [Rethinking misalignment in vision-language model adaptation from a causal perspective](https://proceedings.neurips.cc/paper_files/paper/2024/file/453a27b717972ef94a9a9113d236ad2f-Paper-Conference.pdf) | NeurIPS | CDC | [NeurIPS Code Policy](https://nips.cc/public/guides/CodeSubmissionPolicy) | 2024 |
+| 03 |[DePT: Decoupled prompt tuning](http://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_DePT_Decoupled_Prompt_Tuning_CVPR_2024_paper.pdf) | CVPR | DePT | [GitHub](https://github.com/Koorye/DePT) | 2024 |
+| 04 | [Delve into base-novel confusion: Redundancy exploration for few-shot class-incremental learning](https://arxiv.org/pdf/2405.04918) | arXiv | RDI | - | 2024 |
+| 05 | [Deep Correlated Prompting for Visual Recognition with Missing Modalities](https://proceedings.neurips.cc/paper_files/paper/2024/file/7ca55c8276acf1f0aa996cd3622d1df4-Paper-Conference.pdf) | NeurIPS | DCP | [GitHub](https://github.com/hulianyuyy/Deep_Correlated_Prompting) | 2024 |
+| 06 |[Craft: Cross-modal Aligned Features Improve Robustness of Prompt Tuning](https://arxiv.org/pdf/2407.15894) | arXiv | CRAFT | [GitHub](https://github.com/Jingchensun/Craft) | 2024 |
+| 07 |[M2sd: Multiple mixing self-distillation for few-shot class-incremental learning](https://ojs.aaai.org/index.php/AAAI/article/view/28129) | AAAI | M2SD | - | 2024 |
 
 
 ###### Feature Space 2023
 | No. | Title |Type | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | mcdonnell2023ranpac | [Ranpac: Random projections and pre-trained models for continual learning](https://proceedings.neurips.cc/paper_files/paper/2023/file/2793dc35e14003dd367684d93d236847-Paper-Conference.pdf) | NeurIPS | RanPAC | [GitHub](https://github.com/RanPAC/RanPAC) | 2023 |
-| 02 | gu2023big | [Big-model Driven Few-shot Continual Learning](https://arxiv.org/pdf/2309.00862) | arXiv | B-FSCL | - | 2023 |
+| 01 |[Ranpac: Random projections and pre-trained models for continual learning](https://proceedings.neurips.cc/paper_files/paper/2023/file/2793dc35e14003dd367684d93d236847-Paper-Conference.pdf) | NeurIPS | RanPAC | [GitHub](https://github.com/RanPAC/RanPAC) | 2023 |
+| 02 |[Big-model Driven Few-shot Continual Learning](https://arxiv.org/pdf/2309.00862) | arXiv | B-FSCL | - | 2023 |
 
 ###### Feature Space 2022
 | No. | Title |Type | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | qin2022continual | [Continual few-shot relation learning via embedding space regularization and data augmentation](https://arxiv.org/pdf/2203.02135) | arXiv | CFRL | [GitHub](https://github.com/qcwthu/Continual_Fewshot_Relation_Learning) | 2022 |
-| 02 | wang2022learning | [Learning to decompose visual features with latent textual prompts](https://arxiv.org/pdf/2210.04287) | arXiv | DeFo | - | 2022 |
-| 03 | hersche2022constrained | [Constrained few-shot class-incremental learning](https://openaccess.thecvf.com/content/CVPR2022/papers/Hersche_Constrained_Few-Shot_Class-Incremental_Learning_CVPR_2022_paper.pdf) | CVPR | C-FSCIL | [GitHub](https://github.com/IBM/constrained-FSCIL) | 2022 |
-| 04 | ahmad2022few | [Few-shot class incremental learning leveraging self-supervised features](https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/papers/Ahmad_Few-Shot_Class_Incremental_Learning_Leveraging_Self-Supervised_Features_CVPRW_2022_paper.pdf) | CVPR | FeSSSS | [GitHub](https://github.com/TouqeerAhmad/FeSSSS) | 2022 |
+| 01 | [Continual few-shot relation learning via embedding space regularization and data augmentation](https://arxiv.org/pdf/2203.02135) | arXiv | CFRL | [GitHub](https://github.com/qcwthu/Continual_Fewshot_Relation_Learning) | 2022 |
+| 02 | [Learning to decompose visual features with latent textual prompts](https://arxiv.org/pdf/2210.04287) | arXiv | DeFo | - | 2022 |
+| 03 |[Constrained few-shot class-incremental learning](https://openaccess.thecvf.com/content/CVPR2022/papers/Hersche_Constrained_Few-Shot_Class-Incremental_Learning_CVPR_2022_paper.pdf) | CVPR | C-FSCIL | [GitHub](https://github.com/IBM/constrained-FSCIL) | 2022 |
+| 04 |[Few-shot class incremental learning leveraging self-supervised features](https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/papers/Ahmad_Few-Shot_Class_Incremental_Learning_Leveraging_Self-Supervised_Features_CVPRW_2022_paper.pdf) | CVPR | FeSSSS | [GitHub](https://github.com/TouqeerAhmad/FeSSSS) | 2022 |
 
 ###### Feature Space 2021 and earlier
 | No. | Title |Type | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| 01 | zhu2021self | [Self-promoted prototype refinement for few-shot class-incremental learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Self-Promoted_Prototype_Refinement_for_Few-Shot_Class-Incremental_Learning_CVPR_2021_paper.pdf) | CVPR | SPPR | - | 2021 |
-| 02 | caccia2020online | [Online fast adaptation and knowledge accumulation (osaka): a new approach to continual learning](https://proceedings.neurips.cc/paper_files/paper/2020/file/c0a271bc0ecb776a094786474322cb82-Paper.pdf) | NeurIPS | OSAKA | [GitHub](https://github.com/ElementAI/osaka) | 2020 |
+| 01 | [Self-promoted prototype refinement for few-shot class-incremental learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Self-Promoted_Prototype_Refinement_for_Few-Shot_Class-Incremental_Learning_CVPR_2021_paper.pdf) | CVPR | SPPR | - | 2021 |
+| 02 |[Online fast adaptation and knowledge accumulation (osaka): a new approach to continual learning](https://proceedings.neurips.cc/paper_files/paper/2020/file/c0a271bc0ecb776a094786474322cb82-Paper.pdf) | NeurIPS | OSAKA | [GitHub](https://github.com/ElementAI/osaka) | 2020 |
 
 
 #### 2.2.2 Weight Space
@@ -490,9 +524,9 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 | 01  |[HPT++: Hierarchically Prompting Vision-Language Models with Multi-Granularity Knowledge Generation and Improved Structure Modeling](https://arxiv.org/pdf/2408.14812) | arXiv | HPT++  | - | 2024 |
 | 02  | [RESTORE: Towards Feature Shift for Vision-Language Prompt Learning](https://arxiv.org/pdf/2403.06136) | arXiv | RESTORE | [GitHub](https://github.com/Yaphabates/RESTORE_) | 2024 |
 | 03  | [Conceptual Codebook Learning for Vision-Language Models](https://link.springer.com/chapter/10.1007/978-3-031-72980-5_14) | ECCV | CoCoLe| -  | 2024 |
-| 04  | wang2024understanding| [Understanding and Mitigating Miscalibration in Prompt Tuning for Vision-Language Models](https://arxiv.org/pdf/2410.02681) | arXiv | DOR| [GitHub](https://github.com/ml-stat-Sustech/Outlier-Calibration)  | 2024 |
-| 05  | chen2024conditional| [Conditional prototype rectification prompt learning](https://ieeexplore.ieee.org/abstract/document/11069290/) | TCSVT | CPR | [GitHub](https://github.com/chenhaoxing/CPR) | 2024 |
-| 06  | kuchibhotlasemantic| [Semantic Alignment for Prompt-Tuning in Vision Language Models](https://openreview.net/pdf?id=avDr56QjSI) | TMLR | SAP| - | 2024 |
+| 04  |[Understanding and Mitigating Miscalibration in Prompt Tuning for Vision-Language Models](https://arxiv.org/pdf/2410.02681) | arXiv | DOR| [GitHub](https://github.com/ml-stat-Sustech/Outlier-Calibration)  | 2024 |
+| 05  |[Conditional prototype rectification prompt learning](https://ieeexplore.ieee.org/abstract/document/11069290/) | TCSVT | CPR | [GitHub](https://github.com/chenhaoxing/CPR) | 2024 |
+| 06  |[Semantic Alignment for Prompt-Tuning in Vision Language Models](https://openreview.net/pdf?id=avDr56QjSI) | TMLR | SAP| - | 2024 |
 ###### Function Regularization 2023
 | No. | Title |Type | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
@@ -535,7 +569,7 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 | No. | Title |Type | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
 | 01  | [Gradient projection memory for continual learning](https://arxiv.org/pdf/2103.09762) | arXiv| GPM | [GitHub](https://github.com/sahagobinda/GPM) | 2021 |
-| 02  | tang2021layerwise  | [Layerwise optimization by gradient decomposition for continual learning](http://openaccess.thecvf.com/content/CVPR2021/papers/Tang_Layerwise_Optimization_by_Gradient_Decomposition_for_Continual_Learning_CVPR_2021_paper.pdf) | CVPR | -  | -  | 2021 |
+| 02  |[Layerwise optimization by gradient decomposition for continual learning](http://openaccess.thecvf.com/content/CVPR2021/papers/Tang_Layerwise_Optimization_by_Gradient_Decomposition_for_Continual_Learning_CVPR_2021_paper.pdf) | CVPR | -  | -  | 2021 |
 
 #### 3.1.4 Loss Function
 ###### Loss Function  2025
@@ -650,7 +684,7 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 
 #### 3.2.3 Instruct Tuning
 ###### Instruct Tuning 2024
-| No. | Title |Type | Algorithm Name | Code | Year |
+| No. | Title |Venue | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
 | 01  |[InsCL: A data-efficient continual learning paradigm for fine-tuning large language models with instructions](https://arxiv.org/abs/2403.11435) | arXiv| InsCL| -| 2024 |
 | 02  |[Multi-Task Transfer Matters During Instruction-Tuning](https://aclanthology.org/2024.findings-acl.883.pdf) | ACL| ICL| [GitHub](https://github.com/davidandym/Multitask-Transfer-Instruction-Tuning) | 2024 |
@@ -665,7 +699,7 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 | 11  |[Self-Guide: Better task-specific instruction following via self-synthetic finetuning](https://arxiv.org/pdf/2407.12874) | arXiv | SELF-GUIDE| [GitHub](https://github.com/zhaochenyang20/Prompt2Model-Self-Guide)   | 2024 |
 
 ###### Instruct Tuning 2023
-| No. | Title |Type | Algorithm Name | Code | Year |
+| No. | Title |Venue | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
 | 01  |[Visual instruction tuning](https://proceedings.neurips.cc/paper_files/paper/2023/file/6dcf277ea32ce3288914faf369fe6de0-Paper-Conference.pdf) | NeurIPS | LLaVA| [GitHub](https://llava-vl.github.io/) | 2023 |
 | 02  | [Dynosaur: A dynamic growth paradigm for instruction-tuning data curation](https://arxiv.org/pdf/2305.14327) | arXiv | DYNOSAUR  | [GitHub](https://github.com/WadeYin9712/Dynosaur)  | 2023 |
@@ -673,90 +707,86 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 | 04  |[Orthogonal subspace learning for language model continual learning](https://arxiv.org/pdf/2310.14152) | arXiv| O-LoRA| [GitHub](https://github.com/cmnfriend/O-LoRA) | 2023 |
 
 ###### Instruct Tuning 2022 and earlier
-| No. | Title |Type | Algorithm Name | Code | Year |
+| No. | Title |Venue | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
 | 01  | [Fine-tuned language models are continual learners](https://arxiv.org/pdf/2205.12393) | arXiv | CT0 | [GitHub](https://github.com/ThomasScialom/T0_continual_learning)     | 2022 |
 | 02  |[Finetuned language models are zero-shot learners](https://arxiv.org/pdf/2109.01652) | arXiv| FLAN  | [GitHub](https://github.com/google-research/flan)| 2021 |
 
 #### 3.2.4 Prefix-Tuning
 ###### Prefix-Tuning 2024
-| No. | Title |Type | Algorithm Name | Code | Year |
+| No. | Title |Venue | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
 | 01  | [Pre-trained vision and language transformers are few-shot incremental learners](https://openaccess.thecvf.com/content/CVPR2024/papers/Park_Pre-trained_Vision_and_Language_Transformers_Are_Few-Shot_Incremental_Learners_CVPR_2024_paper.pdf) | CVPR | PriViLege | [GitHub](https://github.com/KHU-AGI/PriViLege) | 2024 |
 | 02  |[Q-tuning: Queue-based prompt tuning for lifelong few-shot language learning](https://arxiv.org/pdf/2404.14607) | arXiv| Q-Tuning | -   | 2024 |
 
 ###### Prefix-Tuning 2023 and earlier
-| No. | Title |Type | Algorithm Name | Code | Year |
+| No. | Title |Venue | Algorithm Name | Code | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
 | 01  |[Coda-prompt: Continual decomposed attention-based prompting for rehearsal-free continual learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Smith_CODA-Prompt_COntinual_Decomposed_Attention-Based_Prompting_for_Rehearsal-Free_Continual_Learning_CVPR_2023_paper.pdf) | CVPR | CODA-Prompt| [GitHub](https://github.com/GT-RIPL/CODA-Prompt)| 2023 |
 | 02  |[Dualprompt: Complementary prompting for rehearsal-free continual learning](https://link.springer.com/chapter/10.1007/978-3-031-19809-0_36) | ECCV | DualPrompt     | [GitHub](https://github.com/google-research/l2p) | 2022 |
 | 03  |[Towards a unified view of parameter-efficient transfer learning](https://arxiv.org/pdf/2110.04366) | arXiv  | -  | [GitHub](https://github.com/jxhe/unify-parameter-efficient-tuning) | 2021 |
 | 04  |[Prefix-tuning: Optimizing continuous prompts for generation](https://arxiv.org/pdf/2101.00190) | arXiv | prefix-tuning  | - | 2021 |
 
-## 4. Survey of Pruning
-### Survey of Pruning 2024
-| No. | Title   | Venue | Code | APP | Year |
-|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
-| 01 | [Structured Pruning for Deep Convolutional Neural Networks: A survey](https://arxiv.org/pdf/2303.00566.pdf) | TPAMI | - | CV&NLP | 2024 |
-| 02 | [A survey on efficient vision transformers: algorithms, techniques, and performance benchmarking](https://arxiv.org/abs/2309.02031) | arXiv | - | CV | 2024 |
-| 03 | [A Survey of Lottery Ticket Hypothesis](https://arxiv.org/abs/2403.04861) | arXiv | - | CV&NLP | 2024 |
-| 04 | [Model Compression and Efficient Inference for Large Language Models: A Survey](https://arxiv.org/abs/2402.09748) | arXiv | - | NLP | 2024 |
+## 4. Survey of Incremental Learning
+### Survey of Incremental Learning 2025
+| No. | Title   | Venue | Code | Year |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|
+| 01  |[Few-Shot Class-Incremental Learning for Classification and Object Detection: A Survey](https://ieeexplore.ieee.org/abstract/document/10840313) | TPAMI | -| 2025 |
+| 02  |[Recent advances of foundation language models-based continual learning: A survey](https://dl.acm.org/doi/abs/10.1145/3705725) | ACM  | - | 2025 |
 
-### Survey of Pruning 2023
-| No. | Title   | Venue | Code | APP | Year |
-|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
-| 01 | [Why is the State of Neural Network Pruning so Confusing? On the Fairness, Comparison Setup, and Trainability in Network Pruning](https://arxiv.org/pdf/2301.05219.pdf) | arXiv | [PyTorch(Author)](https://github.com/MingSun-Tse/Why-the-State-of-Pruning-So-Confusing) | Image Classification | 2023 |
-| 02 | [Transforming Large-Size to Lightweight Deep Neural Networks for IoT Applications](https://dl.acm.org/doi/10.1145/3570955) | ACM Computing Surveys | - | CV&NLP&Audio | 2023 |
-| 03 | [A Survey on Model Compression for Large Language Models](https://arxiv.org/abs/2308.07633) | TACL | - | NLP&Unseen Instructions | 2023 |
-| 04 | [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems](https://arxiv.org/abs/2312.15234) | arXiv | - | - | 2023 |
-| 05 | [A Survey on Dynamic Neural Networks for Natural Language Processing](https://arxiv.org/pdf/2202.07101.pdf) | arXiv | - | NLP | 2023 |
-| 06 | [Dimensionality Reduced Training by Pruning and Freezing Parts of a Deep Neural Network, a Survey](https://arxiv.org/abs/2205.08099) | arXiv | - | CV&NLP | 2023 |
+### Survey of Incremental Learning 2024
+| No. | Title   | Venue | Code | Year |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|
+| 01  |[A survey on few-shot class-incremental learning](https://www.sciencedirect.com/science/article/pii/S0893608023006019) | Neural_Networks  | -  | 2023 |
+| 02  |[Class-incremental learning: A survey](https://ieeexplore.ieee.org/abstract/document/10599804) | TPAMI | [GitHub](https://github.com/zhoudw-zdw/CIL_Survey/)| 2024 |
+| 03  |[Investigating the terrain of class-incremental continual learning: A brief survey](https://link.springer.com/chapter/10.1007/978-981-97-7426-5_25) | ICCCT | -   | 2024 |
+| 04  |[Few-shot learning based on deep learning: A survey](https://www.aimspress.com/article/doi/10.3934/mbe.2024029) | AIMS| -  | 2024 |
+| 05  | [A comprehensive survey of continual learning: Theory, method and application](https://ieeexplore.ieee.org/abstract/document/10444954) | TPAMI | - | 2024 |
+| 06  |[Survey of continuous deep learning methods and techniques used for incremental learning](https://www.sciencedirect.com/science/article/abs/pii/S0925231224003163) | NEUROCOMPUTING  | -  | 2024 |
 
+### Survey of Incremental Learning 2023
+| No. | Title   | Venue | Code | Year |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|
+| 01  |  [A survey of incremental transfer learning: combining peer-to-peer federated learning and domain incremental learning for multicenter collaboration](https://arxiv.org/pdf/2309.17192) | arXiv | [GitHub](https://github.com/YixingHuang/ITLsurvey)| 2023 |
+| 02  | [A comprehensive survey of few-shot learning: Evolution, applications, challenges, and opportunities](https://arxiv.org/pdf/2205.06743v2) | arXiv | -| 2023 |
+| 03  |[Incremental learning with neural networks for computer vision: a survey](https://dl.acm.org/doi/abs/10.1145/3582688) | ACM  | -  | 2023 |
 
-### Survey of Pruning 2022
-| No. | Title   | Venue | Code | APP | Year |
-|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
-| 01 | [A Survey on Efficient Convolutional Neural Networks and Hardware Acceleration](https://arxiv.org/pdf/2103.06460.pdf) | Electronics | - | - | 2022 |
-| 02 | [Dimensionality Reduced Training by Pruning and Freezing Parts of a Deep Neural Network, a Survey](https://arxiv.org/pdf/2205.08099.pdf) | arXiv | - | Image Classification | 2022 |
-| 03 | [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732) | arXiv | - | CV&NLP | 2022 |
-| 04 | [Recent Advances on Neural Network Pruning at Initialization](https://arxiv.org/pdf/2103.06460.pdf) | IJCAI | - | CV&NLP | 2022 |
+### Survey of Incremental Learning 2022
+| No. | Title   | Venue | Code | Year |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|
+| 02  |[Three types of incremental learning](https://www.nature.com/articles/s42256-022-00568-3.pdf) | Nature | [GitHub](https://github.com/GMvandeVen/continual-learning)| 2022 |
+| 03  |[A continual learning survey: Defying forgetting in classification tasks](https://ieeexplore.ieee.org/abstract/document/9349197) | TPAMI| [GitHub](https://github.com/MATTDL/CLSURVEY) | 2022 |
+| 04  |[Learning from few examples: A summary of approaches to few-shot learning](https://arxiv.org/pdf/2203.04291) | arXiv| [Papers with Code](https://paperswithcode.com/sota/few-shot-image-classification-on-mini-2) | 2022 |
+| 05  |[Class-incremental learning: survey and performance evaluation on image classification](https://ieeexplore.ieee.org/abstract/document/9915459) | TPAMI | [GitHub](https://github.com/mmasana/FACIL) | 2022 |
 
-### Survey of Pruning 2021
-| No. | Title   | Venue | Code | APP | Year |
-|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
-| 01 | [Sparsity in Deep Learning: Pruning and growth for efficient inference and training in neural networks](https://arxiv.org/abs/2102.00554) | JMLR | - | Image Classification | 2021 |
-| 02 | [Dynamic Neural Networks: A Survey](https://arxiv.org/pdf/2102.04906.pdf) | arXiv | - | - | 2021 |
-| 03 | [Pruning and Quantization for Deep Neural Network Acceleration: A Survey](https://arxiv.org/pdf/2101.09671.pdf) | Neurocomputing | - | Image Classification | 2021 |
-| 04 | [Compressing Large-Scale Transformer-Based Models: A Case Study on BERT](https://arxiv.org/abs/2002.11985) | TACL | - | NLP | 2021 |
-
-### Survey of Pruning 2020
-| No. | Title   | Venue | Code | APP | Year |
-|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
-| 01 | [Model Compression and Hardware Acceleration for Neural Networks: A Comprehensive Survey](https://ieeexplore.ieee.org/document/9043731) | IEEE | - | - | 2020 |
-| 02 | [Pruning Algorithms to Accelerate Convolutional Neural Networks for Edge Applications: A Survey](https://arxiv.org/pdf/2005.04275.pdf) | arXiv | - | Image Classification | 2020 |
-| 03 | [A Survey of Model Compression and Acceleration for Deep Neural Networks](https://arxiv.org/pdf/1710.09282.pdf) | arXiv | - | - | 2020 |
-| 04 | [An Survey of Neural Network Compression](https://arxiv.org/pdf/2006.03669.pdf) | arXiv | - | - | 2020 |
-| 05 | [Convolutional Neural Network Pruning: A Survey](https://ieeexplore.ieee.org/document/9189610) | CCC | - | - | 2020 |
-| 06 | [What is the State of Neural Network Pruning?](https://arxiv.org/pdf/2003.03033.pdf) | MLSys | - | - | 2020 |
-| 07 | [A comprehensive survey on model compression and acceleration](https://link.springer.com/article/10.1007/s10462-020-09816-7) | Artificial Intelligence Review | - | - | 2020 |
-| 08 | [A Survey on Deep Neural Network Compression: Challenges, Overview, and Solutions](https://arxiv.org/pdf/2010.03954.pdf) | arXiv | - | - | 2020 |
-
-### Survey of Pruning 2019 and earlier
-| No. | Title   | Venue | Code | APP | Year |
-|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
-| 01 | [Pruning Algorithms-A Survey](https://ieeexplore.ieee.org/document/248452) | IEEE Transactions on Neural Networks | - | Image Classification | 1993 |
-| 02 | [Efficient Processing of Deep Neural Networks: A Tutorial and Survey](https://arxiv.org/abs/1703.09039) | arXiv | - | Image Classification | 2017 |
-| 03 | [Recent advances in efficient computation of deep convolutional neural networks](https://arxiv.org/pdf/1802.00939.pdf) | arXiv | - | - | 2018 |
-| 04 | [The State of Sparsity in Deep Neural Networks](https://arxiv.org/abs/1902.09574) | arXiv | [PyTorch(Author)](https://github.com/google-research/google-research/blob/master/state_of_sparsity/README.md) | Image Classification&machine translation | 2019 |
+### Survey of Incremental Learning 2020
+| No. | Title   | Venue | Code | Year |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|
+| 01  |[Generalizing from a few examples: A survey on few-shot learning](https://dl.acm.org/doi/abs/10.1145/3386252) | ACM | [GitHub](https://github.com/tata1661/FewShotPapers.git) | 2020 |
 
 
 ## 5. Other Works
 ### Papers
 | No. | Title   | Venue | Algorithm Name | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:-----:|:-------:|:----:|:----:|:----:|
-| 01 | [Is Pruning Compression?: Investigating Pruning Via Network Layer Similarity](https://openaccess.thecvf.com/content_WACV_2020/papers/Blakeney_Is_Pruning_Compression_Investigating_Pruning_Via_Network_Layer_Similarity_WACV_2020_paper.pdf) | WACV | - | - | Image Classification | 2020 |
-| 02 | [A Gradient Flow Framework For Analyzing Network Pruning](https://openreview.net/forum?id=rumv7QmLUue) | ICLR | - | [PyTorch(Author)](https://github.com/EkdeepSLubana/flowandprune) | Image Classification | 2021 |
-| 03 | [Data Level Lottery Ticket Hypothesis for Vision Transformers](https://arxiv.org/abs/2211.01484) | IJCAI | - | [PyTorch(Author)](https://github.com/shawnricecake/vit-lottery-ticket-input) | Image Classification | 2021 |
-| 04 | [Are All Layers Created Equal?](https://arxiv.org/abs/1902.01996) | JMLR | - | - | Image Classification | 2022 |
+| 01  |[SimLTD: Simple Supervised and Semi-Supervised Long-Tailed Object Detection](https://openaccess.thecvf.com/content/CVPR2025/papers/Tran_SimLTD_Simple_Supervised_and_Semi-Supervised_Long-Tailed_Object_Detection_CVPR_2025_paper.pdf) | CVPR             | - | 2025 |
+| 02  | [General federated class-incremental learning with lightweight generative replay](https://ieeexplore.ieee.org/abstract/document/10612802/) | TPAMI  | -  | 2024 |
+| 03  | [Semantically-shifted incremental adapter-tuning is a continual ViTransformer](https://openaccess.thecvf.com/content/CVPR2024/papers/Tan_Semantically-Shifted_Incremental_Adapter-Tuning_is_A_Continual_ViTransformer_CVPR_2024_paper.pdf) | CVPR| [GitHub](https://github.com/HAIV-Lab/SSIAT) | 2024 |
+| 04  |[Vision-language models for vision tasks: A survey](https://ieeexplore.ieee.org/abstract/document/10445007/) | TPAMI| [GitHub](https://github.com/jingyi0000/VLM_survey)| 2024 |
+| 05  |[CLIP with generative latent replay: a strong baseline for incremental learning](https://arxiv.org/pdf/2407.15793) | arXiv  | [GitHub](https://github.com/aimagelab/mammoth)  | 2024 |
+| 06  | [Task adaptive parameter sharing for multi-task learning](https://openaccess.thecvf.com/content/CVPR2022/papers/Wallingford_Task_Adaptive_Parameter_Sharing_for_Multi-Task_Learning_CVPR_2022_paper.pdf) | CVPR | -  | 2022 |
+| 07  | [Biological underpinnings for lifelong learning machines](https://www.nature.com/articles/s42256-022-00452-0) | Nature | - | 2022 |
+| 08  | [Learning transferable visual models from natural language supervision](https://proceedings.mlr.press/v139/radford21a/radford21a.pdf) | ICML | [GitHub](https://github.com/OpenAI/CLIP) | 2021 |
+| 09  | [VinVL: Revisiting visual representations in vision-language models](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_VinVL_Revisiting_Visual_Representations_in_Vision-Language_Models_CVPR_2021_paper.pdf) | CVPR| [GitHub](https://github.com/pzzhang/VinVL)  | 2021 |
+| 10  | [Lifelong machine learning](https://www.cs.uic.edu/~liub/lifelong-machine-learning-draft.pdf) | Morgan&Claypool  | - | 2018 |
+| 11  | [Deep residual learning for image recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) | CVPR | -  | 2016 |
+| 12  | [ImageNet classification with deep convolutional neural networks](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) | NeurIPS | [Code](http://code.google.com/p/cuda-convnet/)| 2012 |
+
+
+
+
+
+
+
 
 
