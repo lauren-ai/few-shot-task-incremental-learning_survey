@@ -756,7 +756,7 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|
 | 02  |[Three types of incremental learning](https://www.nature.com/articles/s42256-022-00568-3.pdf) | Nature | [GitHub](https://github.com/GMvandeVen/continual-learning)| 2022 |
 | 03  |[A continual learning survey: Defying forgetting in classification tasks](https://ieeexplore.ieee.org/abstract/document/9349197) | TPAMI| [GitHub](https://github.com/MATTDL/CLSURVEY) | 2022 |
-| 04  |[Learning from few examples: A summary of approaches to few-shot learning](https://arxiv.org/pdf/2203.04291) | arXiv| [Papers with Code](https://paperswithcode.com/sota/few-shot-image-classification-on-mini-2) | 2022 |
+| 04  |[Learning from few examples: A summary of approaches to few-shot learning](https://arxiv.org/pdf/2203.04291) | arXiv| [GitHub](https://paperswithcode.com/sota/few-shot-image-classification-on-mini-2) | 2022 |
 | 05  |[Class-incremental learning: survey and performance evaluation on image classification](https://ieeexplore.ieee.org/abstract/document/9915459) | TPAMI | [GitHub](https://github.com/mmasana/FACIL) | 2022 |
 
 ### Survey of Incremental Learning 2020
@@ -780,7 +780,7 @@ The repo includes the ongoing updates of representative few-shot task incrementa
 | 09  | [VinVL: Revisiting visual representations in vision-language models](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_VinVL_Revisiting_Visual_Representations_in_Vision-Language_Models_CVPR_2021_paper.pdf) | CVPR| [GitHub](https://github.com/pzzhang/VinVL)  | 2021 |
 | 10  | [Lifelong machine learning](https://www.cs.uic.edu/~liub/lifelong-machine-learning-draft.pdf) | Morgan&Claypool  | - | 2018 |
 | 11  | [Deep residual learning for image recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) | CVPR | -  | 2016 |
-| 12  | [ImageNet classification with deep convolutional neural networks](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) | NeurIPS | [Code](http://code.google.com/p/cuda-convnet/)| 2012 |
+| 12  | [ImageNet classification with deep convolutional neural networks](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) | NeurIPS | [GitHub](http://code.google.com/p/cuda-convnet/)| 2012 |
 
 
 
