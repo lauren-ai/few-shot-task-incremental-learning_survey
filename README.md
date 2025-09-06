@@ -1,5 +1,5 @@
 # Few-shot Task-incremental Learning: Methods, Challenges, and Future Directions
-![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)[![Few-shot Task-incremental Learning: Methods, Challenges, and Future Directions](https://awesome.re/badge.svg)](https://awesome.re)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)
 ## Table of Contents
 - [Few-shot Task-incremental Learning: Methods, Challenges, and Future Directions](#few-shot-task-incremental-learning-methods-challenges-and-future-directions)
   - [Table of Contents](#table-of-contents)
